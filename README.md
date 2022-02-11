@@ -6,4 +6,4 @@ I. [Variants of Concern (VOC) and Variants Being Monitored (VBM)](https://nextst
 
 II. [21K (Omicron)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Omicron)
 
-III. Delta (B.1.617.2 and AYs) coming soon...
+III. [Delta (B.1.617.2 and AYs)] (https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Delta)
