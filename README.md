@@ -4,6 +4,8 @@ SARS-CoV-2 genomes from Puerto Rico analyzed against a diverse set of genomes fr
 # List of Builds Available
 I. [Variants of Concern (VOC) and Variants Being Monitored (VBM)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico)
 
-II. [21K (Omicron)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Omicron)
+II. [Delta (B.1.617.2 and AYs)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Delta)
 
-III. [Delta (B.1.617.2 and AYs)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Delta)
+III. [21K (Omicron)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico_Omicron)
+
+
