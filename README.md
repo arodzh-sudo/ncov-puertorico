@@ -5,7 +5,7 @@ These results are provided as heuristic guides only, based on literature review 
 
 I. [Variants of Concern (VOC) and Variants Being Monitored (VBM)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/?f_country=Puerto%20Rico)
 
-II. [Delta (B.1.617.2 and AYs)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Delta?f_country=Puerto%20Rico&label=clade:21A%20%28Delta%29)
+II. [Delta (B.1.617.2 and AYs)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Delta?f_country=Puerto%20Rico&label=clade:21A%20%28Delta%29&m=div)
 
 III. [21K and 21L Omicron](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Omicron?f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29&m=div)
 
