@@ -5,7 +5,7 @@ We maintain (updated weekly) a number of publicly-available builds, accesible at
 
 I. [Dedicated VOC & VBM Nextstrain build](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time/?f_country=Puerto%20Rico)
 
-II. [Dedicated Omicron (21K, 21L & 22C) Nextstrain build](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Omicron?f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29&m=div)
+II. [Dedicated Omicron (21K, 21L & 22C) Nextstrain build](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Omicron?f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29)
 
 III. [Dedicated Delta (21A, 21I & 21J) Nextstrain build](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Delta?f_country=Puerto%20Rico&label=clade:21A%20%28Delta%29)
 
