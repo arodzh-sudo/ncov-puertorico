@@ -3,13 +3,13 @@ This public repository analyzes SARS-CoV-2 genomes using the [Nextstrain](https:
 
 We maintain (updated weekly) a number of publicly-available builds, accesible at the [Nextstrain community site](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/):
 
-I. Dedicated [VOC & VBM](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time/?f_country=Puerto%20Rico) Nextstrain build
+I. Dedicated [VOC & VBM](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time/?f_country=Puerto%20Rico&l=radial&m=div) Nextstrain build
 
-II. Dedicated [Omicron (21K, 21L & 22C)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Omicron?f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29) Nextstrain build
+II. Dedicated [Omicron (21K, 21L & 22C)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Omicron?f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29&m=div) Nextstrain build
 
-III. Dedicated [Delta (21A, 21I & 21J)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Delta?f_country=Puerto%20Rico&label=clade:21A%20%28Delta%29) Nextstrain build
+III. Dedicated [Delta (21A, 21I & 21J)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/Delta?f_country=Puerto%20Rico&label=clade:21A%20%28Delta%29&m=div) Nextstrain build
 
-The "Variants of Concern (VOC) and Variants Being Monitored (VBM) build" incorporates [recent changes](https://github.com/nextstrain/ncov/pull/910) made by the Nextstrain team which splits the phylogeny into a ["six-months"](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico) build that focus subsampling on the previous six months and a ["all-time"](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time/?f_country=Puerto%20Rico) build that subsamples evenly across time. This uses the new relative dates functionality in ["augur filter" and "augur frequencies"](https://docs.nextstrain.org/projects/augur/en/stable/releases/changelog.html) to make these subsampling strategies easier to implement and set frequencies timespans to match subsampling ranges.
+The "Variants of Concern (VOC) and Variants Being Monitored (VBM) build" incorporates [recent changes](https://github.com/nextstrain/ncov/pull/910) made by the Nextstrain team which splits the phylogeny into a ["six-months"](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&l=radial&m=div) build that focus subsampling on the previous six months and a ["all-time"](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time/?f_country=Puerto%20Rico&l=radial&m=div) build that subsamples evenly across time. This uses the new relative dates functionality in ["augur filter" and "augur frequencies"](https://docs.nextstrain.org/projects/augur/en/stable/releases/changelog.html) to make these subsampling strategies easier to implement and set frequencies timespans to match subsampling ranges.
 
 The SARS-CoV-2 genomes from Puerto Rico are analyzed against a diverse set of genomes from North America and the rest of the globe to provide phylogenetic context. Wuhan-Hu-1/2019 is used as a reference for site numbering and genome structure. The phylogeny is rooted relative to early samples from Puerto Rico and temporal resolution assumes a nucleotide substitution rate of 8 × 10^-4 substitutions per site per year.
 
