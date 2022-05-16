@@ -1,0 +1,45 @@
+inputs:
+# Puerto Rico data
+  - name: puertorico 
+    metadata: "data/puerto-rico_omicron_metadata_2022-05-12.tsv"
+    sequences: "data/puerto-rico_omicron_sequences_2022-05-12.fasta"
+# North America context
+  - name: northamerica
+    metadata: "data/hcov_north-america_metadata_2022-05-10.tsv"
+    sequences: "data/hcov_north-america_sequences_2022-05-10.fasta"
+# Reference for clade topology, manually selected and curated set of sequences
+  - name: reference
+    metadata: "data/reference_metadata_2022-05-05.tsv"
+    sequences: "data/reference_sequences_2022-05-05.fasta"
+
+builds:
+  Puerto-Rico_Omicron:
+    subsampling_scheme: custom_scheme
+    title: "Phylogenetic Analysis of SARS-CoV-2 in Puerto Rico - Omicron (21K, 21L & 22C)"
+
+# Subsampling parameters
+subsampling:
+  custom_scheme:
+    local_focus:
+      max_sequences: 3000
+      query: --query "(puertorico == 'yes')"
+    northamerica_context:
+      group_by: "division year month"
+      max_sequences: 1000
+      query: --query "(northamerica == 'yes')"
+      priorities:
+        type: proximity
+        focus: local_focus
+    reference-context:
+      group_by: "Nextstrain_clade"
+      max_sequences: 600
+      query: --query "(reference == 'yes')"
+
+files:
+  auspice_config: "my_profiles/omicron-puertorico/my_auspice_config.json"
+  description: "my_profiles/omicron-puertorico/my_description.md"
+
+traits:
+  Puerto-Rico_Omicron:
+    sampling_bias_correction: 5.0
+    columns: ["country"]

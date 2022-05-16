@@ -1,0 +1,45 @@
+inputs:
+# Puerto Rico data
+  - name: puertorico 
+    metadata: "data/puerto-rico_delta_metadata_2022-05-05.tsv"
+    sequences: "data/puerto-rico_delta_sequences_2022-05-05.fasta"
+# North America context
+  - name: northamerica
+    metadata: "data/hcov_north-america_metadata_2022-05-04.tsv"
+    sequences: "data/hcov_north-america_sequences_2022-05-04.fasta"
+# Reference for clade topology, manually selected and curated set of sequences
+  - name: reference
+    metadata: "data/reference_metadata_2022-05-05.tsv"
+    sequences: "data/reference_sequences_2022-05-05.fasta"
+
+builds:
+  Puerto-Rico_Delta:
+    subsampling_scheme: custom_scheme
+    title: "Phylogenetic Analysis of SARS-CoV-2 in Puerto Rico - Delta (21A, 21I & 21J)"
+
+# Subsampling parameters
+subsampling:
+  custom_scheme:
+    local_focus:
+      max_sequences: 3000
+      query: --query "(puertorico == 'yes')"
+    northamerica_context:
+      group_by: "division year month"
+      max_sequences: 500
+      query: --query "(northamerica == 'yes')"
+      priorities:
+        type: proximity
+        focus: local_focus
+    reference-context:
+      group_by: "Nextstrain_clade"
+      max_sequences: 600
+      query: --query "(reference == 'yes')"
+
+files:
+  auspice_config: "my_profiles/delta-puertorico/my_auspice_config.json"
+  description: "my_profiles/delta-puertorico/my_description.md"
+
+traits:
+  Puerto-Rico_Delta:
+    sampling_bias_correction: 5.0
+    columns: ["country"]
