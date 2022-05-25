@@ -1,5 +1,3 @@
-{
-  "Nextstrain_WRKFLW.build_yaml" : "data/build.yaml",
-  "Nextstrain_WRKFLW.giturl" : "https://github.com/nextstrain/ncov/archive/refs/heads/master.zip",
-  "Nextstrain_WRKFLW.docker_path": "nextstrain/base:latest"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fedae92162642dfdfba79e148c910e4759586e715027c3276c0fa475d79a2125
+size 222

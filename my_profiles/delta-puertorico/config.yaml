@@ -1,8 +1,0 @@
-configfile:
-  - defaults/parameters.yaml # Pull in the default values
-  - my_profiles/delta-puertorico/builds.yaml # Pull in our list of desired builds
-
-cores: 12
-set-threads: tree=4
-printshellcmds: True
-show-failed-logs: True

@@ -1,32 +1,3 @@
-{
-  "__default__": {
-    "time": "00:29:00",
-    "qos": "30min",
-    "n": 1,
-    "mem": "16G"
-  },
-  "ancestral": {
-    "mem": "32G"
-  },
-  "refine": {
-    "time": "05:59:00",
-    "qos": "6hours",
-    "n": 1,
-    "mem": "32G"
-  },
-  "tree": {
-    "n": 8,
-    "qos": "6hours",
-    "time": "05:59:00"
-  },
-  "align": {
-    "n": 8,
-    "mem": "16G",
-    "qos": "6hours",
-    "time": "05:59:00"
-  },
-  "filter":{
-    "qos": "6hours",
-    "time": "05:59:00"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc7704c65cb2493e144e6a4ad6bf2abf6f0fc33f8817328cb1e97d2b719ab28e
+size 491
