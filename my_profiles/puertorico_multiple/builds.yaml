@@ -1,20 +1,12 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_omicron_metadata_2022-05-23.tsv"
-    sequences: "data/puerto-rico_omicron_sequences_2022-05-23.fasta"
+    metadata: "data/puerto-rico_metadata_2022-05-27.tsv"
+    sequences: "data/puerto-rico_sequences_2022-05-27.fasta"
 # North America context
   - name: northamerica
-    metadata: "data/hcov_north-america_metadata_2022-05-22.tsv"
-    sequences: "data/hcov_north-america_sequences_2022-05-22.fasta"
-# South America context
-  - name: southamerica
-    metadata: "data/hcov_south-america_metadata_2022-05-22.tsv"
-    sequences: "data/hcov_south-america_sequences_2022-05-22.fasta"
-# Europe context
-  - name: europe
-    metadata: "data/hcov_europe_metadata_2022-05-22.tsv"
-    sequences: "data/hcov_europe_sequences_2022-05-22.fasta"
+    metadata: "data/hcov_north-america_metadata_2022-05-29.tsv"
+    sequences: "data/hcov_north-america_sequences_2022-05-29.fasta"
 
 builds:
   Puerto-Rico_all-time:
@@ -33,22 +25,8 @@ subsampling:
       query: --query "(puertorico == 'yes')"
     northamerica_context:
       group_by: "division year month"
-      max_sequences: 600
+      max_sequences: 1000
       query: --query "(northamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus
-    southamerica_context:
-      group_by: "country year month"
-      max_sequences: 250
-      query: --query "(southamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus
-    europe_context:
-      group_by: "country year month"
-      max_sequences: 150
-      query: --query "(europe == 'yes')"
       priorities:
         type: proximity
         focus: local_focus
@@ -61,55 +39,23 @@ subsampling:
       query: --query "(puertorico == 'yes')"
     na_context_late:
       group_by: "division year month"
-      max_sequences: 600
+      max_sequences: 500
       min_date: "--min-date 6M"
       query: --query "(northamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus_late
-    sa_context_late:
-      group_by: "country year month"
-      max_sequences: 200
-      min_date: "--min-date 6M"
-      query: --query "(southamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus_late
-    europe_context_late:
-      group_by: "country year month"
-      max_sequences: 200
-      min_date: "--min-date 6M"
-      query: --query "(europe == 'yes')"
       priorities:
         type: proximity
         focus: local_focus_late
 
     local_focus_early:
       group_by: "year month"
-      max_sequences: 600
+      max_sequences: 1000
       max_date: "--max-date 6M"
       query: --query "(puertorico == 'yes')"
     na_context_early:
       group_by: "division year month"
-      max_sequences: 200
+      max_sequences: 500
       max_date: "--max-date 6M"
       query: --query "(northamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus_early
-    sa_context_early:
-      group_by: "country year month"
-      max_sequences: 100
-      max_date: "--max-date 6M"
-      query: --query "(southamerica == 'yes')"
-      priorities:
-        type: proximity
-        focus: local_focus_early
-    europe_context_early:
-      group_by: "country year month"
-      max_sequences: 100
-      max_date: "--max-date 6M"
-      query: --query "(europe == 'yes')"
       priorities:
         type: proximity
         focus: local_focus_early
