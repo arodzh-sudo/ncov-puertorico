@@ -1,20 +1,20 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_metadata_2022-06-06.tsv"
-    sequences: "data/puerto-rico_sequences_2022-06-06.fasta"
+    metadata: "data/puerto-rico_metadata_2022-06-14.tsv"
+    sequences: "data/puerto-rico_sequences_2022-06-14.fasta"
 # North America context
   - name: northamerica
-    metadata: "data/hcov_north-america_metadata_2022-06-05.tsv"
-    sequences: "data/hcov_north-america_sequences_2022-06-05.fasta"
+    metadata: "data/hcov_north-america_metadata_2022-06-12.tsv"
+    sequences: "data/hcov_north-america_sequences_2022-06-12.fasta"
 
 builds:
   Puerto-Rico_all-time:
     subsampling_scheme: all-time
-    title: "Phylogenetic Analysis of SARS-CoV-2 in Puerto Rico - Focused since pandemic start"
+    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused since pandemic start"
   Puerto-Rico_six-months:
     subsampling_scheme: six-months
-    title: "Phylogenetic Analysis of SARS-CoV-2 in Puerto Rico - Focused over the past 6 months"
+    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused over the past 6 months"
 
 # Subsampling parameters
 subsampling:
