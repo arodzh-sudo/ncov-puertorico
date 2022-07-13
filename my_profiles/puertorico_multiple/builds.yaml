@@ -11,17 +11,18 @@ inputs:
 builds:
   Puerto-Rico_all-time:
     subsampling_scheme: all-time
-    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused since pandemic start"
+    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused Since COVID-19 Pandemic Start"
   Puerto-Rico_six-months:
     subsampling_scheme: six-months
-    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused over the past 6 months"
+    title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused Over the Past 6 months"
 
 # Subsampling parameters
 subsampling:
   all-time:
-    local_focus:
+    local:
       group_by: "year month"
       max_sequences: 4000
+      min_length: 29000
       query: --query "(puertorico == 'yes')"
     northamerica_context:
       group_by: "division year month"
@@ -29,36 +30,38 @@ subsampling:
       query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
-        focus: local_focus
+        focus: local
 
   six-months:
-    local_focus_late:
+    local_late:
       group_by: "year month"
       max_sequences: 3000
       min_date: "--min-date 6M"
+      min_length: 29000
       query: --query "(puertorico == 'yes')"
-    na_context_late:
+    northamerica_late:
       group_by: "division year month"
       max_sequences: 500
       min_date: "--min-date 6M"
       query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
-        focus: local_focus_late
+        focus: local_late
 
-    local_focus_early:
+    local_early:
       group_by: "year month"
       max_sequences: 1000
       max_date: "--max-date 6M"
+      min_length: 29000
       query: --query "(puertorico == 'yes')"
-    na_context_early:
+    northamerica_early:
       group_by: "division year month"
       max_sequences: 500
       max_date: "--max-date 6M"
       query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
-        focus: local_focus_early
+        focus: local_early
 
 files:
   auspice_config: "my_profiles/puertorico_multiple/my_auspice_config.json"
