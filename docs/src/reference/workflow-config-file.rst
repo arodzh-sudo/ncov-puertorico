@@ -111,20 +111,23 @@ builds
 .. code:: yaml
 
    builds:
-     global:
-       region: global
-       subsampling_scheme: global
 
+     # the following build (dataset) will include all samples provided in the inputs
+     everything:
+      subsampling_scheme: all
+
+     # this will use a predefined subsampling scheme (see subsampling section for details)
      washington:
        region: North America
        country: USA
        division: Washington
-       subsampling_scheme: all
+       subsampling_scheme: country
 
--  required:
-
-   -  ``region`` (required to adjust regional metadata)
-
+     # this will use a custom subsampling scheme that you provide
+     # which will have access to the provided `my_param` 
+     washington:
+       subsampling_scheme: my_scheme
+       my_param: some value
 
 Valid attributes for entries in ``builds``:
 
@@ -163,6 +166,12 @@ region
 -  type: string
 -  description: Name of the region the corresponding build belongs to (based on standard values in the ``region`` metadata field).
 
+.. warning::
+
+   The presence of a ``region`` key will result in the metadata being adjusted in potentially surprising ways.
+   For all metadata rows that are not in this region, ``location`` will be removed (set to an empty string), and ``division`` and ``country`` will be changed to their corresponding region.
+   Additionally, a ``focal`` column will be added, with True/False values depending on if the row matches the provided region.
+
 subclades
 ~~~~~~~~~
 
@@ -174,6 +183,7 @@ subsampling_scheme
 
 -  type: string
 -  description: Name of the subsampling scheme defined in ``subsampling`` to use for the current build.
+-  default: ``"all"``. In practice, this means that no subsampling will be performed.
 
 title
 ~~~~~
@@ -296,12 +306,7 @@ min_date
 ~~~~~~~~
 
 -  type: string
--  description: Argument to ``augur filter`` to set the minimum collection date for strains to include in the subsampling set. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Argument to ``augur filter`` to set the minimum collection date for strains to include in the subsampling set. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  examples:
 
    -  ``--min-date 2019-10-01``
@@ -313,12 +318,7 @@ max_date
 ~~~~~~~~
 
 -  type: string
--  description: Argument to ``augur filter`` to set the maximum collection date for strains to include in the subsampling set. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Argument to ``augur filter`` to set the maximum collection date for strains to include in the subsampling set. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  examples:
 
    -  ``--max-date 2021-04-01``
@@ -507,7 +507,7 @@ annotation
 ~~~~~~~~~~
 
 -  type: string
--  description: Path to a GFF-formated annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
+-  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
 -  default: ``defaults/annotation.gff``
 -  used in rules: ``align``, ``build_align``, ``build_mutation_summary``
 
@@ -795,12 +795,7 @@ min_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: ``2019.74``
 
 skip_diagnostics
@@ -817,6 +812,10 @@ tree
 
 -  type: object
 -  description: Parameters for phylogenetic inference by ``augur tree``. The tree “method” is hardcoded to ``iqtree``.
+-  Valid attributes:
+
+.. contents::
+   :local:
 
 tree-builder-args
 ~~~~~~~~~~~~~~~~~
@@ -972,24 +971,14 @@ min_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Earliest date to estimate frequencies for. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Earliest date to estimate frequencies for. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: without value supplied, defaults to 1 year before present
 
 max_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Earliest date to estimate frequencies for. Specifying ``max_date`` overrides ``recent_days_to_censor``. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Earliest date to estimate frequencies for. Specifying ``max_date`` overrides ``recent_days_to_censor``. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: without value supplied, defaults to today's date minus ``recent_days_to_censor`` parameter
 
 recent_days_to_censor

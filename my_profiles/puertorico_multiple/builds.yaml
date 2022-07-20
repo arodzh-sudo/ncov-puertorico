@@ -1,12 +1,12 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_metadata.tsv"
-    sequences: "data/puerto-rico_sequences.fasta"
+    metadata: "data/puerto-rico_metadata_2022-07-19.tsv"
+    sequences: "data/puerto-rico_sequences_2022-07-19.fasta"
 # North America context
   - name: northamerica
-    metadata: "data/hcov_north-america_metadata.tsv"
-    sequences: "data/hcov_north-america_sequences.fasta"
+    metadata: "data/hcov_north-america_metadata_2022-07-17.tsv"
+    sequences: "data/hcov_north-america_sequences_2022-07-17.fasta"
 
 builds:
   Puerto-Rico_all-time:
@@ -16,13 +16,18 @@ builds:
     subsampling_scheme: six-months
     title: "Genomic Surveillance of SARS-CoV-2 in Puerto Rico - Focused Over the Past 6 months"
 
+filter:
+  puertorico:
+    min_length: 28000
+  northamerica:
+    min_length: 29000
+
 # Subsampling parameters
 subsampling:
   all-time:
     local:
       group_by: "year month"
       max_sequences: 4000
-      min_length: 29000
       query: --query "(puertorico == 'yes')"
     northamerica_context:
       group_by: "division year month"
@@ -37,7 +42,6 @@ subsampling:
       group_by: "year month"
       max_sequences: 3000
       min_date: "--min-date 6M"
-      min_length: 29000
       query: --query "(puertorico == 'yes')"
     northamerica_late:
       group_by: "division year month"
@@ -52,7 +56,6 @@ subsampling:
       group_by: "year month"
       max_sequences: 1000
       max_date: "--max-date 6M"
-      min_length: 29000
       query: --query "(puertorico == 'yes')"
     northamerica_early:
       group_by: "division year month"

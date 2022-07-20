@@ -72,9 +72,8 @@ rule align:
         insertions = "results/insertions_{origin}.tsv",
         translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
-        outdir = "results/translations",
-        genes = ','.join(config.get('genes', ['S'])),
-        basename = "seqs_{origin}",
+        output_translations = lambda w: f"results/translations/seqs_{w.origin}.gene.{{gene}}.fasta",
+        output_translations_toxz = "results/translations/seqs_{origin}.gene.*.fasta",
         strain_prefixes=config["strip_strain_prefixes"],
         # Strip the compression suffix for the intermediate output from the aligner.
         uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix(""),
@@ -93,18 +92,15 @@ rule align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextalign \
+            | nextalign run \
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
-            --genes {params.genes} \
-            --sequences /dev/stdin \
-            --output-dir {params.outdir} \
-            --output-basename {params.basename} \
+            --output-translations {params.output_translations} \
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
-        xz -2 -T {threads} {params.outdir}/{params.basename}*.fasta
+        xz -2 -T {threads} {params.output_translations_toxz}
         """
 
 def _get_subsampling_settings(wildcards):
@@ -184,6 +180,9 @@ def _get_specific_subsampling_setting(setting, optional=False):
         if isinstance(value, str):
             # Load build attributes including geographic details about the
             # build's region, country, division, etc. as needed for subsampling.
+            if wildcards.build_name not in config["builds"]:
+                raise Exception(f"The requested build name {wildcards.build_name!r} does not exist in the given configuration file. This error occurred while looking up the subsampling setting {setting!r}. This missing build might indicate a typo in the build name.")
+
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
             if value !="":
@@ -457,26 +456,25 @@ rule prepare_nextclade:
         Downloading reference files for nextclade (used for alignment and qc).
         """
     output:
-        nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
     params:
         name = "sars-cov-2",
     conda: config["conda_environment"]
     shell:
         """
-        nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
+        nextclade --version
+        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
         """
 
 rule build_align:
     message:
         """
-        Running nextclade QC and aligning sequences to {input.reference}
+        Running nextclade QC and aligning sequences
             - gaps relative to reference are considered real
         """
     input:
         sequences = rules.combine_samples.output.sequences,
-        genemap = config["files"]["annotation"],
-        reference = config["files"]["alignment_reference"],
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
     output:
         alignment = "results/{build_name}/aligned.fasta",
         insertions = "results/{build_name}/insertions.tsv",
@@ -484,10 +482,9 @@ rule build_align:
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
     params:
         outdir = "results/{build_name}/translations",
-        genes = ','.join(config.get('genes', ['S'])),
-        basename = "aligned",
         strain_prefixes=config["strip_strain_prefixes"],
         sanitize_log="logs/sanitize_sequences_before_nextclade_{build_name}.txt",
+        output_translations = lambda w: f"results/{w.build_name}/translations/aligned.gene.{{gene}}.fasta"
     log:
         "logs/align_{build_name}.txt"
     benchmark:
@@ -504,13 +501,10 @@ rule build_align:
             --output /dev/stdout 2> {params.sanitize_log} \
             | nextclade run \
             --jobs {threads} \
-            --input-fasta /dev/stdin \
-            --reference {input.reference} \
             --input-dataset {input.nextclade_dataset} \
             --output-tsv {output.nextclade_qc} \
-            --output-dir {params.outdir} \
-            --output-basename {params.basename} \
             --output-fasta {output.alignment} \
+            --output-translations {params.output_translations} \
             --output-insertions {output.insertions} 2>&1 | tee {log}
         """
 
@@ -1381,13 +1375,27 @@ rule build_description:
         with open(output.description, "w", encoding = "utf-8") as o:
             o.write(template.safe_substitute(context))
 
+def get_auspice_config(w):
+    """
+    Auspice configs are chosen via this heirarchy:
+    1. A build-specific JSON
+    2. An `auspice_config` rule, if it exists
+    3. The file specified in the `config.files` dict
+    """
+    if "auspice_config" in config["builds"].get(w.build_name, {}):
+        return config["builds"][w.build_name]["auspice_config"]
+    if "auspice_config" in rules.__dict__:
+        return rules.auspice_config.output
+    return config["files"]["auspice_config"]
+
+
 rule export:
     message: "Exporting data files for Auspice"
     input:
         tree = rules.refine.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
-        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"].get(w.build_name, {}) else config["files"]["auspice_config"],
+        auspice_config = get_auspice_config,
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"].get(w.build_name, {}) else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
         description = rules.build_description.output.description
@@ -1463,7 +1471,7 @@ rule include_hcov19_prefix:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json,
+        auspice_json = rules.include_hcov19_prefix.output.auspice_json,
         frequencies = rules.include_hcov19_prefix.output.tip_frequencies,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
