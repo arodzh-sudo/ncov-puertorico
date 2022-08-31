@@ -77,7 +77,7 @@ include_hcov19_prefix: True
 # Filter settings
 filter:
   # Require nearly full-length genomes.
-  min_length: 27000
+  min_length: 29000
 
   # Omit sequences with incomplete date annotations, and USA seqs without a state.
   exclude_where: "division='USA'"
