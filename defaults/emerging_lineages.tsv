@@ -1,18 +1,5 @@
 clade	gene	site	alt
 
-BA.2.9.1	nuc	8782	C
-BA.2.9.1	nuc	14408	T
-BA.2.9.1	nuc	18163	G
-BA.2.9.1	nuc	23403	G
-BA.2.9.1	nuc	28881	A
-BA.2.9.1	nuc	28882	A
-BA.2.9.1	nuc	21618	T
-BA.2.9.1	nuc	22775	A
-BA.2.9.1	nuc	23599	G
-BA.2.9.1	nuc	22916	A
-BA.2.9.1	nuc	24433	G
-BA.2.9.1	nuc	3610	C
-
 BA.2.12.1	nuc	8782	C
 BA.2.12.1	nuc	14408	T
 BA.2.12.1	nuc	18163	G
@@ -25,30 +12,6 @@ BA.2.12.1	nuc	23599	G
 BA.2.12.1	nuc	22917	A
 BA.2.12.1	nuc	11674	T
 BA.2.12.1	nuc	21721	T
-
-BA.2.13	nuc	8782	C
-BA.2.13	nuc	14408	T
-BA.2.13	nuc	18163	G
-BA.2.13	nuc	23403	G
-BA.2.13	nuc	28881	A
-BA.2.13	nuc	28882	A
-BA.2.13	nuc	21618	T
-BA.2.13	nuc	22775	A
-BA.2.13	nuc	23599	G
-BA.2.13	nuc	22916	A
-BA.2.13	nuc	23767	G
-
-BA.2.13	nuc	8782	C
-BA.2.13	nuc	14408	T
-BA.2.13	nuc	18163	G
-BA.2.13	nuc	23403	G
-BA.2.13	nuc	28881	A
-BA.2.13	nuc	28882	A
-BA.2.13	nuc	21618	T
-BA.2.13	nuc	22775	A
-BA.2.13	nuc	23599	G
-BA.2.13	nuc	22917	A
-BA.2.13	nuc	7820	C
 
 BA.2.75	nuc	8782	C
 BA.2.75	nuc	14408	T
@@ -75,6 +38,20 @@ BA.4	nuc	12160	A
 BA.4	nuc	9866	C
 BA.4	nuc	27788	T
 
+BA.4.6	nuc	8782	C
+BA.4.6	nuc	14408	T
+BA.4.6	nuc	18163	G
+BA.4.6	nuc	23403	G
+BA.4.6	nuc	28881	A
+BA.4.6	nuc	28882	A
+BA.4.6	nuc	21618	T
+BA.4.6	nuc	22775	A
+BA.4.6	nuc	22599	C
+BA.4.6	nuc	23599	G
+BA.4.6	nuc	12160	A
+BA.4.6	nuc	9866	C
+BA.4.6	nuc	27788	T
+
 BA.5	nuc	8782	C
 BA.5	nuc	14408	T
 BA.5	nuc	18163	G
@@ -87,3 +64,90 @@ BA.5	nuc	23599	G
 BA.5	nuc	12160	A
 BA.5	nuc	9866	C
 BA.5	nuc	27259	A
+
+BA.5.1	nuc	8782	C
+BA.5.1	nuc	14408	T
+BA.5.1	nuc	18163	G
+BA.5.1	nuc	23403	G
+BA.5.1	nuc	28881	A
+BA.5.1	nuc	28882	A
+BA.5.1	nuc	21618	T
+BA.5.1	nuc	22775	A
+BA.5.1	nuc	23599	G
+BA.5.1	nuc	12160	A
+BA.5.1	nuc	9866	C
+BA.5.1	nuc	27259	A
+BA.5.1	nuc	27438	C
+BA.5.1	nuc	29666	T
+
+BA.5.2.1	nuc	8782	C
+BA.5.2.1	nuc	14408	T
+BA.5.2.1	nuc	18163	G
+BA.5.2.1	nuc	23403	G
+BA.5.2.1	nuc	28881	A
+BA.5.2.1	nuc	28882	A
+BA.5.2.1	nuc	21618	T
+BA.5.2.1	nuc	22775	A
+BA.5.2.1	nuc	23599	G
+BA.5.2.1	nuc	12160	A
+BA.5.2.1	nuc	9866	C
+BA.5.2.1	nuc	27259	A
+BA.5.2.1	nuc	27038	G
+
+BF.27	nuc	8782	C
+BF.27	nuc	8616	T
+BF.27	nuc	14408	T
+BF.27	nuc	18163	G
+BF.27	nuc	23403	G
+BF.27	nuc	28881	A
+BF.27	nuc	28882	A
+BF.27	nuc	21618	T
+BF.27	nuc	22775	A
+BF.27	nuc	23599	G
+BF.27	nuc	12160	A
+BF.27	nuc	9866	C
+BF.27	nuc	27259	A
+BF.27	nuc	27038	G
+
+BQ.1.1	nuc	14257	C
+BQ.1.1	nuc	16935	A
+BQ.1.1	nuc	28312	T
+BQ.1.1	nuc	22942	A
+BQ.1.1	nuc	22599	C
+
+XBB	nuc	15461	A
+XBB	nuc	17859	C
+XBB	nuc	23019	C
+XBB	nuc	26275	G
+
+BA.2.3.20	nuc	6770	G
+BA.2.3.20	nuc	22332	A
+BA.2.3.20	nuc	17678	T
+BA.2.3.20	nuc	23013	G
+
+BN.1	nuc	22599	C
+BN.1	nuc	22629	C
+BN.1	nuc	23031	C
+
+BM.1.1	nuc	18583	A
+BM.1.1	nuc	22599	C
+BM.1.1	nuc	23019	C
+
+BA.2.75.2	nuc	5192	T
+BA.2.75.2	nuc	23019	C
+BA.2.75.2	nuc	25157	A
+
+BA.5.2.23	nuc	4576	T
+BA.5.2.23	nuc	22326	T
+BA.5.2.23	nuc	22896	C
+
+BS.1	nuc	9866	T
+BS.1	nuc	10393	C
+BS.1	nuc	16418	T
+BS.1	nuc	26733	C
+
+XBC	nuc	23670	T
+XBC	nuc	27898	C
+XBC	nuc	21635	T
+XBC	nuc	27718	C
+XBC	nuc	7091	A

@@ -1,0 +1,8 @@
+configfile:
+  - defaults/parameters.yaml
+  - my_profiles/puertorico_gisaid/builds.yaml
+
+cores: 32
+set-threads: tree=16
+printshellcmds: True
+show-failed-logs: True

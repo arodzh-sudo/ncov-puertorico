@@ -35,8 +35,10 @@ rule all_regions:
     input:
         auspice_json = expand("auspice/{prefix}_{build_name}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
         tip_frequencies_json = expand("auspice/{prefix}_{build_name}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
+        root_sequence_json = expand("auspice/{prefix}_{build_name}_root-sequence.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
         dated_auspice_json = expand("auspice/{prefix}_{build_name}_{date}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date())),
-        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date()))
+        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date())),
+        dated_root_sequence_json = expand("auspice/{prefix}_{build_name}_{date}_root-sequence.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date()))
 
 # This cleans out files to allow re-run of 'normal' run with `export`
 # to check lat-longs & orderings
@@ -123,6 +125,198 @@ rule mutation_summary:
             --output {output.mutation_summary} 2>&1 | tee {log}
         """
 
+#
+# Rule for generating a per-build auspice config
+#
+rule auspice_config:
+    """
+    This rule is only intended to be run with `nextstrain-open` or `nextstrain-gisaid`
+    profiles!
+    """
+    message: "Making a custom auspice config."
+    output:
+        "results/{build_name}/auspice_config.json"
+    benchmark:
+        "benchmarks/make_auspice_config_{build_name}.txt"
+    run:
+        input_set = set(config['inputs'])
+        build_name = wildcards.build_name
+
+        if "_" in build_name:
+            build_region, build_timespan = build_name.split("_")
+        else:
+            build_region = build_name
+            build_timespan = ""
+
+        ## What are the parameters which vary across builds?
+        ## Note: set a value to `None` to exclude it from the produced config JSON
+        default_geo_resolution = "division" if build_region in ["north-america", "oceania"] else "country"
+        default_map_triplicate = True if build_region in ["reference", "global"] else False
+        if input_set == {"gisaid"}:
+            data_provenance = [{"name": "GISAID"}]
+            gisaid_clade_coloring = {"key": "GISAID_clade", "title": "GISAID Clade", "type": "categorical"}
+            gisaid_epi_isl_coloring = {"key": "gisaid_epi_isl", "type": "categorical"}
+            location_coloring = {"key": "location", "title": "Location", "type": "categorical"}
+            location_filter = "location"
+            originating_lab_filter = "originating_lab"
+            submitting_lab_filter  = "submitting_lab"
+        elif input_set == {"open"}:
+            data_provenance = [{"name": "GenBank", "url": "https://www.ncbi.nlm.nih.gov/genbank/"}]
+            gisaid_clade_coloring = None
+            gisaid_epi_isl_coloring = None
+            location_coloring = None
+            location_filter = None
+            originating_lab_filter = None
+            submitting_lab_filter  = None
+        else:
+            raise Exception(f"rule auspice_config doesn't know how to handle inputs: {input_set}")
+
+        data = {
+            "build_url": "https://github.com/nextstrain/ncov",
+            "maintainers": [
+                {
+                "name": "the Nextstrain team",
+                "url": "https://nextstrain.org/"
+                }
+            ],
+            "data_provenance": data_provenance,
+            "colorings": [
+                {
+                    "key": "emerging_lineage",
+                    "title": "Emerging Lineage",
+                    "type": "categorical"
+                },
+                {
+                    "key": "pango_lineage",
+                    "title": "GISAID Pango Lineage",
+                    "type": "categorical"
+                },
+                {
+                    "key": "Nextclade_pango",
+                    "title": "Nextclade Pango Lineage",
+                    "type": "categorical"
+                },
+                gisaid_clade_coloring,
+                {
+                    "key": "S1_mutations",
+                    "title": "S1 Mutations",
+                    "type": "continuous"
+                },
+                {
+                    "key": "rbd_level",
+                    "title": "RBD Level",
+                    "type": "ordinal"
+                },
+                {
+                    "key": "logistic_growth",
+                    "title": "Logistic Growth",
+                    "type": "continuous"
+                },
+                {
+                    "key": "current_frequency",
+                    "title": "Current Frequency",
+                    "type": "continuous"
+                },
+                {
+                    "key": "mutational_fitness",
+                    "title": "Mutational Fitness",
+                    "type": "continuous"
+                },
+                {
+                    "key": "region",
+                    "title": "Region",
+                    "type": "categorical"
+                },
+                {
+                    "key": "country",
+                    "title": "Country",
+                    "type": "categorical"
+                },
+                {
+                    "key": "division",
+                    "title": "Admin Division",
+                    "type": "categorical"
+                },
+                location_coloring,
+                {
+                    "key": "host",
+                    "title": "Host",
+                    "type": "categorical"
+                },
+                {
+                    "key": "author",
+                    "title": "Authors",
+                    "type": "categorical"
+                },
+                {
+                    "key": "originating_lab",
+                    "title": "Originating Lab",
+                    "type": "categorical"
+                },
+                {
+                    "key": "submitting_lab",
+                    "title": "Submitting Lab",
+                    "type": "categorical"
+                },
+                {
+                    "key": "recency",
+                    "title": "Submission Date",
+                    "type": "categorical"
+                },
+                {
+                    "key": "epiweek",
+                    "title": "Epiweek (CDC)",
+                    "type": "categorical"
+                },
+                gisaid_epi_isl_coloring,
+                {
+                    "key": "genbank_accession",
+                    "type": "categorical"
+                }
+            ],
+            "geo_resolutions": [
+                "region",
+                "country",
+                "division"
+            ],
+            "display_defaults": {
+                "color_by": "clade_membership",
+                "distance_measure": "num_date",
+                "geo_resolution": default_geo_resolution,
+                "map_triplicate": default_map_triplicate,
+                "branch_label": "clade",
+                "transmission_lines": False
+            },
+            "filters": [
+                "clade_membership",
+                "emerging_lineage",
+                "pango_lineage",
+                "Nextclade_pango",
+                "region",
+                "level",
+                "country",
+                "division",
+                location_filter,
+                "host",
+                "author",
+                originating_lab_filter,
+                submitting_lab_filter,
+                "recency"
+            ],
+            "panels": [
+                "tree",
+                "map",
+                "entropy",
+                "frequencies"
+            ]
+        }
+
+        ## Prune out None values
+        data['colorings'] = [c for c in data['colorings'] if c!=None]
+        data['filters'] = [f for f in data['filters'] if f!=None]
+
+        with open(output[0], 'w') as fh:
+            json.dump(data, fh, indent=2)
 
 #
 # Rules for custom auspice exports for the Nextstrain team.
@@ -132,10 +326,12 @@ rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
         auspice_json = rules.finalize.output.auspice_json,
-        tip_frequencies_json = rules.include_hcov19_prefix.output.tip_frequencies
+        tip_frequencies_json = rules.finalize.output.tip_frequency_json,
+        root_sequence_json = rules.finalize.output.root_sequence_json
     output:
         dated_auspice_json = "auspice/{prefix}_{build_name}_{date}.json",
-        dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json"
+        dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json",
+        dated_root_sequence_json = "auspice/{prefix}_{build_name}_{date}_root-sequence.json"
     benchmark:
         "benchmarks/dated_json_{prefix}_{build_name}_{date}.txt"
     wildcard_constraints:
@@ -144,13 +340,14 @@ rule dated_json:
         # the user-defined prefix as a constraint, so Snakemake does not parse
         # parts of the actual build names as part of the prefix.
         prefix = re.escape(config["auspice_json_prefix"]),
-        build_name = r'(?:[-a-zA-Z0-9_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
+        build_name = r'(?:[-a-zA-Z0-9_](?!tip-frequencies|root-sequence|\d{4}-\d{2}-\d{2}))+',
         date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
         cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
+        cp {input.root_sequence_json} {output.dated_root_sequence_json}
         """
 
 #
