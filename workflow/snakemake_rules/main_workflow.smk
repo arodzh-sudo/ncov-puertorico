@@ -1447,10 +1447,10 @@ rule export:
             --auspice-config {input.auspice_config} \
             --include-root-sequence \
             --colors {input.colors} \
-            --minify-json \
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
             --description {input.description} \
+            --minify-json \
             --output {output.auspice_json} 2>&1 | tee {log}
         """
 
