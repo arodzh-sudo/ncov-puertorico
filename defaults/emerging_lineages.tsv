@@ -173,6 +173,7 @@ clade	gene	site	alt
 BQ.1.1	clade	22E (Omicron)
 BQ.1.1	nuc	14257	C
 BQ.1.1	nuc	16935	A
+BQ.1.1	nuc	17039	G
 BQ.1.1	nuc	28312	T
 BQ.1.1	nuc	22942	A
 BQ.1.1	nuc	22599	C
@@ -225,11 +226,6 @@ BS.1	nuc	9866	T
 BS.1	nuc	10393	C
 BS.1	nuc	16418	T
 BS.1	nuc	26733	C
-
-XBB	clade	22B (Omicron)
-XBB	nuc	17859	C
-XBB	nuc	23019	C
-XBB	nuc	26275	G
 
 XBC	clade	20A
 XBC	nuc	23670	T
