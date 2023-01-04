@@ -16,9 +16,9 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualizacion - 16 de diciembre de 2022](https://nextstrain.org/ncov/gisaid/global/6m?c=Nextclade_pango&d=map,frequencies&p=full&transmissions=show)
+# [Actualizacion - 4 de enero de 2023](https://nextstrain.org/ncov/gisaid/global/6m?c=Nextclade_pango&d=map,frequencies&p=full&transmissions=show)
 
-Continúa la tendencia general de **evolución convergente y la deriva antigénica**, particularmente en los sitios antigénicos del dominio de unión al receptor (RBD). En general, no hay un linaje único que domine globalmente. Parece haber un equilibrio de evolución antigénica continua, es decir hay una rotación de linajes cada ciertos meses que causan picos de infeccion moderados en lugar de picos dramáticos.
+Continúa la tendencia general de **evolución convergente y la deriva antigénica**, particularmente en los sitios antigénicos del dominio de unión al receptor (RBD). En general, BQ.1 (22E) alcanzó un [9.77% de proporción global](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=bq.1*&) entre todas las muestras secuenciadas en los últimos 6 meses. Sin embargo, no hay un linaje único que domine globalmente. Parece haber un equilibrio de evolución antigénica continua, es decir hay una rotación de linajes cada ciertos meses que causan picos de infeccion moderados en lugar de picos dramáticos.
 
 
 Las sustituciones en las regiones genómicas [**R346, K444, G446, L452, N460, F486, F490 y R493**](https://www.biorxiv.org/content/10.1101/2022.11.23.517532v1.full) están presentes en muchos de los linajes detectados recientemente.
@@ -67,4 +67,4 @@ Prevalencia de mutaciones entre los sublinajes BJ.1, BM.1.1.1 (parientes) y las 
 
 
 
-En Puerto Rico, se han detectado dos muestras clasificada como XBB.1 a inicios y mediados de Noviembre 2022.
+En Puerto Rico, se han detectado cuatro muestras clasificada como XBB.1 y XBB.1.5 con fechas de colección en Noviembre y Diciembre 2022 respectivamente.
