@@ -20,7 +20,7 @@ filter:
   puertorico:
     min_length: 28000
   globe:
-    min_length: 29000
+    min_length: 28000
 
 # Subsampling parameters
 subsampling:

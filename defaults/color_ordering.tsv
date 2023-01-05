@@ -32172,18 +32172,15 @@ clade_membership	22F (Omicron)
 ################
 
 
-emerging_lineage	BQ.1.1
-emerging_lineage	BA.2.3.20
-emerging_lineage	BN.1
-emerging_lineage	BM.1.1
-emerging_lineage	BA.2.75.2
+emerging_lineage	
 emerging_lineage	BF.5
 emerging_lineage	BF.7
 emerging_lineage	BF.11
-emerging_lineage	BA.5.2.23
-emerging_lineage	BS.1
-emerging_lineage	XBB
-emerging_lineage	XBC
+emerging_lineage	BN.1
+emerging_lineage	BM.1.1
+emerging_lineage	BQ.1.1
+emerging_lineage	BQ.1.1.4
+emerging_lineage	XBB.1.5
 
 ################
 
