@@ -67,4 +67,4 @@ Prevalencia de mutaciones entre los sublinajes BJ.1, BM.1.1.1 (parientes) y las 
 
 
 
-En Puerto Rico, se han detectado cuatro muestras clasificada como XBB.1 y XBB.1.5 con fechas de colección en Noviembre y Diciembre 2022 respectivamente.
+En Puerto Rico, se han detectado múltiples muestras clasificada como XBB.1 y XBB.1.5 con fechas de colección entre Noviembre y Diciembre 2022.
