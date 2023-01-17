@@ -76,7 +76,7 @@ La **variante Delta** se había generalizado durante el segundo trimestre de 202
 Delta se detectó por primera vez en Puerto Rico en junio de 2021, durante un período en el que la transmisión del SARS-CoV-2 estaba disminuyendo y la campaña de vacunación avanzaba rápidamente. Sin embargo, la transmisión de Delta desplazó a la mayoría de los linajes circulantes y dio lugar a la tercera ola epidémica. Para finales del verano 2021 el 100% de los casos de COVID-19 muestreados y secuenciados fueron causados por Delta. 
 
 
-# [B.1.1.529 (Omicron) - Puerto Rico 2021](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,entropy&f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29&p=full&tl=pango_lineage)
+# [B.1.1.529 (Omicron) - Puerto Rico 2021](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&f_country=Puerto%20Rico&label=clade:21M%20%28Omicron%29&p=full&tl=pango_lineage)
 
 Adaptado de [CoVariants](https://covariants.org/variants/21K.Omicron)
 
