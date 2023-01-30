@@ -143,7 +143,7 @@ En contraste con los Estados Unidos, Puerto Rico no observó dos olas consecutiv
 En Puerto Rico, el sublinaje presentó una acumulación de mutaciones adicionales, especialmente en la región del gen S de la proteína “Spike”, como por ejemplo **S:N417K y S:K440N**, las cuales indujeron fenotipos con mayor aptitud y transmisibilidad que linajes anteriores.
 
 
-# [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2022-08-01&f_country=Puerto%20Rico&p=full)
+# [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=pango_lineage&d=tree,frequencies&dmax=2022-08-01&dmin=2021-11-09&f_country=Puerto%20Rico&f_pango_lineage=BA.2,BA.2.1,BA.2.10,BA.2.12,BA.2.12.1,BA.2.13,BA.2.13.1,BA.2.20,BA.2.21,BA.2.3,BA.2.37,BA.2.38,BA.2.65,BA.2.73,BA.2.76,BA.2.9&label=clade:21L%20%28Omicron%29&p=full)
 
 Adaptado de [CoVariants](https://covariants.org/variants/21L.Omicron)
 
