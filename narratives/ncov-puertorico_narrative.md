@@ -141,6 +141,8 @@ En Puerto Rico, el sublinaje presentó una acumulación de mutaciones adicionale
 
 # [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2022-08-01&f_country=Puerto%20Rico&p=full)
 
+Adaptado de [CoVariants](https://covariants.org/variants/21L.Omicron)
+
 BA.2 (21L) y BA.1 (21K) comparten 38 mutaciones de nucleótidos y aminoácidos, pero BA.2 tiene 27 adicionales.
 
 
