@@ -3,7 +3,7 @@ title: Vigilancia Genómica de SARS-CoV-2 en Puerto Rico
 authors: Arnold Rodriguez-Hilario, MS
 authorLinks: "https://github.com/arodzh-sudo"
 date: "2022-12-13"
-dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/?branchLabel=emerging_lineage&c=pango_lineage&d=tree,entropy,frequencies&f_country=Puerto%20Rico&l=scatter&m=div&p=full&scatterX=num_date&scatterY=div"
+dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=radial&m=div&p=full&showBranchLabels=all"
 abstract: "
 
 Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1.
@@ -16,18 +16,57 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 13 de enero de 2023, XBB.1.5](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
+# [Actualización - 30 de enero de 2023, XBB.1.5](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
 XBB (22F) es una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región del gen de la proteína “Spike”. XBB tiene las mutaciones S:V455P (de BJ.1) y S:N460K (de BM.1.1.1). También contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
 
 
-XBB evolucionó aún más, dando paso a **XBB.1.5**, con una nueva mutación clave **F486P**. La sustitución S:F486P se distingue de las anteriores debido a requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) aumente significativamente la afinidad al restaurar la unión del receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria.
+XBB evolucionó aún más, dando paso a **XBB.1.5**, con una nueva mutación clave **F486P**. La sustitución S:F486P se distingue de las anteriores debido a que requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) [aumente la afinidad significativamente al restaurar la unión al receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria](https://www.biorxiv.org/content/10.1101/2023.01.03.522427v2).
 
 
-En Puerto Rico, se han detectado múltiples muestras clasificadas como XBB.1 y XBB.1.5 con fechas de colección entre Noviembre y Diciembre 2022, posiblemente XBB.1.5 representando alrededor del [30% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando alrededor del [50% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
 
 
-Globalmente, continúa la tendencia general de **evolución convergente y la deriva antigénica**, particularmente en los sitios antigénicos del dominio de unión al receptor (RBD). En general, BQ.1 (22E) alcanzó un [12.50% de proporción global](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=bq.1*&) entre todas las muestras secuenciadas en los últimos 6 meses. Sin embargo, no hay un linaje único que domine globalmente. Parece haber un equilibrio de evolución antigénica continua, es decir hay una rotación de linajes cada ciertos meses que causan picos de infeccion moderados en lugar de picos dramáticos.
+# [XBB.1.5 vs BQ.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=emerging_lineage&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21L%20%28Omicron%29&p=full&showBranchLabels=all)
+
+A menudo se discuten dos rasgos principales relacionados con la proteína "Spike" con respecto al escape inmunológico (anticuerpos) y la unión al receptor humano ACE2, el primero se refiere a cambios genéticos relacionados con la susceptibilidad del reconocimiento de anticuerpos y el segundo, una medida de qué tan bien el virus puede adherirse y entrar en las células del huésped.
+
+
+Las mutaciones en la región genómica que codifica para la proteína "Spike" puede proporcionar una ventaja de ciertos sublinajes sobre otras variantes que carecen de esas mutaciones. Algunas variantes exitosas han sido buenas en uno de estos dos rasgos. Recientemente, se está observando que los linajes en circulación están adquiriendo mutaciones que le han brindado ventajas en estos dos rasgos (escape inmunológico y afinidad al ACE2).
+
+
+De los más de 700 sublinajes y recombinantes de Ómicron, los que están en circulación (a nivel mundial y local) son miembros de dos orígenes genéticos: BA2 y BA.5.
+
+
+BA.5:
+BA.5.2.1, BF/BE, BQ.1.1
+
+
+BA.2:
+BA.2.75, BM/BN, XBB.1.5, CH.1.1
+
+
+Puerto Rico no estuvo expuesto a la familia de sublinajes BA.2.75 (BM/BN) como se vio en el sur y noroeste de los Estados Unidos, sino que se vio afectado por los sublinajes BA.5 (BE/BF). Esto pone en riesgo a la isla de un aumento de casos de COVID-19 causado por sublinajes más aptos de la familia BA.2.75 como XBB.1.5 y CH.1.1
+
+
+# [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
+
+La evolución del SARS-CoV-2 se ha caracterizado por la aparición de conjuntos de mutaciones, en el contexto de "variantes de interés", que afectan las características del virus, incluidas la transmisibilidad y la antigenicidad, probablemente en respuesta al perfil inmunitario cambiante de la población humana.
+
+
+Se espera que una pequeña minoría de mutaciones afecte el fenotipo del virus de una manera que confiera una ventaja de aptitud, al menos en algunos contextos. Tales mutaciones pueden alterar varios aspectos de la biología del virus, como la patogenicidad, la infectividad, la transmisibilidad y/o la antigenicidad. Aunque se debe tener cuidado de no confundir las mutaciones que simplemente están presentes en los linajes en crecimiento con mutaciones que cambian la biología del virus.
+
+
+La mayor parte de la pandemia ha sido impulsada por 3 mutaciones recurrentes del dominio amino terminal (NTD): H69/V70 e Y144.
+
+
+La deleción Δ69–70 ha surgido varias veces en los númerosos sublinajes de SARS-CoV-2 y se entiende que altera la conformación de un bucle del NTD expuesto y se ha reportado que este cambio está asociado con una mayor infectividad.
+
+
+La recurrencia de ΔY144 es preocupante con respecto a la respuesta de anticuerpos policlonales como el bucle N3 (aminoácido en las posiciones 140-156, que son el objetivo principal de una variedad de anticuerpos neutralizantes), que ΔY144 cambia, se predice que se encuentra entre las regiones más inmunogénicas de la proteína Spike.
+
+
+Esto destaca la necesidad del desarrollo de ensayos moleculares (qPCR) para la detección acelerada de sublinajes y estimaciones de proporción cuando el número de casos positivos es bajo o se sospecha que se ha introducido una nueva variante en la isla.
 
 # [SARS-CoV-2 - Puerto Rico 2020](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&dmax=2020-07-23&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
 
@@ -37,12 +76,12 @@ Globalmente, continúa la tendencia general de **evolución convergente y la der
 La fase inicial de la epidemia se caracterizó por la detección de una amplia diversidad de linajes **B.1.x** que circulaban en baja frecuencia por períodos cortos de tiempo, lo que sugiere que la epidemia local inició por múltiples eventos de introducción [(Santiago et al. (2022), Genomic surveillance of SARS-COV-2 in Puerto Rico enabled early detection and tracking of variants. Communications medicine).](https://doi.org/10.1038/s43856-022-00168-7)
 
 
-# [B.1.588 - Otoño 2020](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2021-02-17&dmin=2020-06-11&f_country=Puerto%20Rico&f_pango_lineage=B.1.588&p=full&tl=pango_lineage)
+# [B.1.588 - 2020](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2021-02-17&dmin=2020-06-11&f_country=Puerto%20Rico&f_pango_lineage=B.1.588&p=full&tl=pango_lineage)
 
 En agosto de 2020, se detectó el linaje B.1.588 en varios municipios de Puerto Rico. **B.1.588** se convirtió rápidamente en el linaje predominante en Puerto Rico, alcanzando casi el **70% en proporción y provocando la primera ola epidémica en noviembre de 2020**. La circulación del linaje B.1.588 disminuyó durante el invierno de 2020 e inicios del año 2021, una temporada marcada por viajes frecuentes debido a las festividades.
 
 
-B.1.588 se separó de su linaje parental B.1 tras la aparición de dos mutaciones no conservativas: **T20I en la proteína "Spike" y M234I en la proteína de la nucleocápside (N)**.
+B.1.588 se separó de su linaje parental B.1 tras la aparición de tres (3) mutaciones no conservativas: **T20I en la proteína "Spike" y dos mutaciones en la proteína de la nucleocápside (N); M234I y D401Y**.
 
 
 # [B.1.1.7 (Variante Alfa/20I/V1) - Puerto Rico 2021](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&f_country=Puerto%20Rico&label=clade:20I%20%28Alpha,%20V1%29&p=full&tl=pango_lineage)
@@ -92,6 +131,42 @@ Esta variante es principalmente de preocupación debido a la **gran cantidad de 
 Con la aparición de **Omicron (BA.1) a finales de 2021**, vimos una variante hipertransmisible diferente a las anteriores con un aumento estimado de 3 veces en su número de reproducción efectiva en comparación con la variante Delta. Para finales de enero 2022, 100% de casos de COVID-19 muestreados y secuenciados fueron causados por la variante Omicron.
 
 
+# [BA.1 & BA.1.1 (21K) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21K%20%28Omicron%29&p=full)
+
+En contraste con los Estados Unidos, Puerto Rico no observó dos olas consecutivas de los linajes BA.1 y BA.1.1. El linaje BA.1.1 (BA.1 + mutación S:346K) dominó rápidamente en Puerto Rico desde su detección, causando el cuarto y más alto pico epidémico en Puerto Rico que se observó a mediados de diciembre de 2021 hasta Febrero 2022. Más del 70% de los casos de COVID-19 secuenciados en diciembre 2021, enero y febrero 2022, fueron identificados como BA.1.1. 
+
+
+En Puerto Rico, el sublinaje presentó una acumulación de mutaciones adicionales, especialmente en la región del gen S de la proteína “Spike”, como por ejemplo S:N417K, S:K440N y S:S446G, las cuales indujeron fenotipos con mayor aptitud y transmisibilidad que linajes anteriores.
+
+
+# [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2022-08-01&f_country=Puerto%20Rico&p=full)
+
+BA.2 (21L) y BA.1 (21K) comparten 38 mutaciones de nucleótidos y aminoácidos, pero BA.2 tiene 27 adicionales.
+
+
+Mirando solo la región genómica de la proteína Spike, ambos comparten 21 mutaciones de aminoácidos, BA.1 tiene 12 mutaciones de aminoácidos únicas y BA.2 tiene 6 adicionales (más una deleción/mutación). En particular, BA.2 carece de la eliminación en S:H69- y S:V70- lo que provoca la "caída del gen S" o SGTF que se ha utilizado para rastrear BA.1 en las pruebas de PCR TaqPath.
+
+
+Las 6 mutaciones Spike adicionales en BA.2 son: S:T19I, S:V213G, S:S371F, S:T376A, S:D405N y S:R408S. Además de esto, hay una deleción de 9 nucleótidos de la posición 21633-21641 que conduce a las deleciones y mutaciones S:L24-, S:P25-, S:P26- y S:A27S.
+
+
+El linaje BA.2 superó al linaje BA.1.1 en marzo 2022 para convertirse en linaje predominante en Puerto Rico durante mediados del 2022. BA.2 y varios sublinajes (BA.2.9, BA.2.73, BA.2.12.1) causaron el pico epidémico en Puerto Rico que se observó durante el verano 2022, comparable al pico epidemico de BA.1.1 en diciembre 2021 y enero 2022. 
+
+
+# [BA.2.73 - Puerto Rico 2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&c=pango_lineage&d=tree,frequencies&dmax=2022-08-01&f_country=Puerto%20Rico&f_pango_lineage=BA.2.73&p=full&tl=pango_lineage)
+
+Mediante análisis filogenéticos, identificamos un grupo que secuencias genómicas que presentaban un perfil genético distinto al linaje BA.2 original. Adicional a las mutaciones presentes en el linaje BA.2, este grupo de secuencias genómicas presentan la mutación **G257S** en el gen S que codifica para la proteína "Spike" y la mutación **P2287S** en el ORF1a que codifica para proteínas no estructurales. 
+
+
+Estimaciones realizadas en la plataforma cov-SPECTRUM sugieren que esta combinación de mutaciones confiere una ventaja de crecimiento relativo de ~30% sobre el linaje BA.2 original (Fuente: [covSPECTRUM])(https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=ORF1a%3AP2287S%2CS%3AG257S&pangoLineage=BA.2*&)
+
+
+La primera secuencia fue detectada el 7 de marzo de 2022 en Puerto Rico (EPI_ISL_11176165). Desde entonces, se ha detectado en los Estados Unidos (31 jurisdicciones), y en más de 10 países internacionalmente.
+
+
+El 13 de mayo de 2022, [presentamos una solicitud de consideración al Comité de Designación de Linajes (LDC, por sus siglas en inglés) del grupo PANGO, para la evaluación de este posible nuevo sublinaje.](https://github.com/cov-lineages/pango-designation/issues/632) El 13 de junio de 2022, el LDC acepto la solicitud y designaron el nuevo sublinaje como BA.2.73, [identificado como un sublinaje de la variante Ómicron BA.2 en Puerto Rico y USA.](https://github.com/cov-lineages/pango-designation/commit/9951f5664d2874df6a757b7ce851f1d0b4a8438e)
+
+
 # [BA.4 (22A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=aa&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&gmax=29639&gmin=240&label=clade:22A%20%28Omicron%29&m=div&p=full&tl=pango_lineage)
 
 Adaptado de [CoVariants](https://covariants.org/variants/22A.Omicron)
@@ -135,3 +210,5 @@ Dentro del “Spike”, BQ.1 tiene otras mutaciones en **S:K444T y S:N460K**. Fu
 
 
 Varios linajes dentro de BQ.1, en particular el sublinaje **BQ.1.1**, ha adquirido una mutación adicional [**S:R346T** que ayuda al virus a evadir los anticuerpos neutralizantes](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22)00642-9/fulltext).
+
+
