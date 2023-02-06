@@ -3,7 +3,7 @@ title: Vigilancia Genómica de SARS-CoV-2 en Puerto Rico
 authors: Arnold Rodriguez-Hilario, MS
 authorLinks: "https://github.com/arodzh-sudo"
 date: "2022-12-13"
-dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=radial&m=div&p=full&showBranchLabels=all"
+dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=clock&m=div&p=full&showBranchLabels=all"
 abstract: "
 
 Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1.
@@ -16,18 +16,23 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 30 de enero de 2023, XBB.1.5](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
-XBB (22F) es una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región del gen de la proteína “Spike”. XBB tiene las mutaciones S:V455P (de BJ.1) y S:N460K (de BM.1.1.1). También contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
-
-
-XBB evolucionó aún más, dando paso a **XBB.1.5**, con una nueva mutación clave **F486P**. La sustitución S:F486P se distingue de las anteriores debido a que requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) [aumente la afinidad significativamente al restaurar la unión al receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria](https://www.biorxiv.org/content/10.1101/2023.01.03.522427v2).
+# [Actualización - 6 de febrero de 2023, XBB.1.5 (23A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
-En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando alrededor del [50% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+XBB.1.5 (23A) sigue siendo el linaje circulante aparentemente más apto. Ya es dominante en la costa este de los EE. UU. y se prevé que lo sea en el resto de los Estados Unidos a mediados de febrero 2023. 
 
 
-# [XBB.1.5 vs BQ.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=emerging_lineage&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21L%20%28Omicron%29&p=full&showBranchLabels=all)
+En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando cerca del [75% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+
+
+XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región del gen de la proteína “Spike”. XBB tiene las mutaciones S:V455P (de BJ.1) y S:N460K (de BM.1.1.1). También contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
+
+
+**XBB.1.5**, surge con una nueva mutación clave: **F486P**. La sustitución S:F486P se distingue de las anteriores debido a que requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) [aumente la afinidad significativamente al restaurar la unión al receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria](https://www.biorxiv.org/content/10.1101/2023.01.03.522427v2).
+
+
+# [BA.2 vs BA.5 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=emerging_lineage&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21L%20%28Omicron%29&p=full&showBranchLabels=all)
 
 A menudo se discuten **dos rasgos principales** relacionados con la **proteína "Spike"** con respecto al **escape inmunológico (anticuerpos) y la unión al receptor humano ACE2**, el primero se refiere a cambios genéticos relacionados con la *susceptibilidad del reconocimiento de anticuerpos* y el segundo, una medida de qué tan bien el virus puede **adherirse y entrar en las células del huésped**.
 
@@ -50,7 +55,7 @@ BA.2:
 **BA.2.75, BM/BN, XBB.1.5, CH.1.1**
 
 
-Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, sino que se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por sublinajes más aptos de la familia **BA.2.75 como XBB.1.5 y CH.1.1**
+Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia estimada de 70-80%. No obstante, Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, más bien se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por otros sublinajes más aptos de la familia **BA.2.75 como el sublinaje CH.1.1**
 
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
