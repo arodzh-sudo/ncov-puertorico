@@ -23,7 +23,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 XBB.1.5 (23A) sigue siendo el linaje circulante aparentemente más apto. Ya es dominante en la costa este de los EE. UU. y se prevé que lo sea en el resto de los Estados Unidos a mediados de febrero 2023. 
 
 
-En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando cerca del [75% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando cerca del [70% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
 
 
 XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región del gen de la proteína “Spike”. XBB tiene las mutaciones S:V455P (de BJ.1) y S:N460K (de BM.1.1.1). También contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
@@ -55,7 +55,7 @@ BA.2:
 **BA.2.75, BM/BN, XBB.1.5, CH.1.1**
 
 
-Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia estimada de 70-80%. No obstante, Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, más bien se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por otros sublinajes más aptos de la familia **BA.2.75 como el sublinaje CH.1.1**
+Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia estimada de 60-70%. No obstante, Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, más bien se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por otros sublinajes más aptos de la familia **BA.2.75 como el sublinaje CH.1.1**
 
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
