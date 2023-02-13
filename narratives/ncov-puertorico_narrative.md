@@ -34,13 +34,13 @@ XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que signific
 
 # [BA.2 vs BA.5 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=emerging_lineage&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21L%20%28Omicron%29&p=full&showBranchLabels=all)
 
-A menudo se discuten **dos rasgos principales** relacionados con la **proteína "Spike"** con respecto al **escape inmunológico (anticuerpos) y la unión al receptor humano ACE2**, el primero se refiere a cambios genéticos relacionados con la *susceptibilidad del reconocimiento de anticuerpos* y el segundo, una medida de qué tan bien el virus puede **adherirse y entrar en las células del huésped**.
+A menudo se discuten **dos rasgos principales** relacionados con la **proteína "Spike"** con respecto al **escape inmunológico (anticuerpos) y la unión al receptor humano ACE2**, el primero se refiere a cambios genéticos relacionados con la **susceptibilidad del reconocimiento de anticuerpos** y el segundo, una medida de qué tan bien el virus puede **adherirse y entrar en las células del huésped**.
 
 
 Las **mutaciones en la región genómica** que codifica para la proteína "Spike" pueden proporcionar una **ventaja de ciertos sublinajes sobre otras variantes** que carecen de esas mutaciones. **Algunas variantes exitosas han sido buenas en uno de estos dos rasgos**. Recientemente, se está observando que los linajes en circulación están adquiriendo mutaciones que le han brindado **ventajas en estos dos rasgos (escape inmunológico y afinidad al ACE2)**.
 
 
-De los más de 700 sublinajes y recombinantes de Ómicron, los que están en circulación (a nivel mundial y local) son miembros de dos orígenes genéticos: **BA2 y BA.5**.
+De los más de 800 sublinajes y recombinantes de Ómicron, los que están en circulación (a nivel mundial y local) son miembros de dos orígenes genéticos: **BA2 y BA.5**.
 
 
 BA.5:
@@ -55,7 +55,10 @@ BA.2:
 **BA.2.75, BM/BN, XBB.1.5, CH.1.1**
 
 
-Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia estimada de 60-70%. No obstante, Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, más bien se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por otros sublinajes más aptos de la familia **BA.2.75 como el sublinaje CH.1.1**
+Puerto Rico **no estuvo muy expuesto a la familia de sublinajes BA.2.75 (BM/BN)** como se vio en el sur y noroeste de los Estados Unidos, más bien se vio afectado por los sublinajes **BA.5 (BE/BF)**. Esto pone en **riesgo a la isla de un aumento de casos** de COVID-19 causado por sublinajes más aptos de la familia **BA.2.75 (XBB.1.5, CH.1.1, XBN, XBP)**
+
+
+Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia estimada de 60-70%.
 
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
