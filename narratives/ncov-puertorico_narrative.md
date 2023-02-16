@@ -17,7 +17,25 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 ---
 
 
-# [Actualización - 6 de febrero de 2023, XBB.1.5 (23A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
+# [Actualización - 16 de febrero de 2023, CH.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=gt-S_346,444,452,486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22D%20%28Omicron%29&p=full)
+
+
+**CH.1.1 (BA.2.75.3.4.1.1.1.1)** parece haber surgido en Agosto de 2022, posiblemente en Australia. [A febrero de 2023, la mayoría de las secuencias de este linaje se han detectado en el Reino Unido, pero también se han detectado muchas partes del mundo](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=CH.1.1*&). En los Estados Unidos, [se estima que CH.1.1 representa alrededor del 0.9-1.9% de las infecciones por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
+
+
+CH.1.1 es descendiente de **BA.2.75 (22D)** que adquirió un conjunto mutacional importante en la región del dominio de unión al receptor (RBD), que es el objetivo principal de los anticuerpos neutralizantes contra el SARS-CoV-2.
+
+
+Esta sublinaje presenta **4 de las mutaciones más importante** según el estimador de escape de anticuerpos para mutaciones en el RBD de SARS-CoV-2, desarrollado por [Jesse Bloom en el Departamento de Ciencias del Genoma de la Universidad de Washington](https://jbloomlab.github.io/SARS2_RBD_Ab_escape_maps/escape-calc/):
+
+
+**F486S, R346T, K444T, L452R**
+
+
+En Puerto Rico, se han detectado 5 muestras clasificadas como CH.1.1 con fechas de colección entre Noviembre y Enero 2023.
+
+
+# [XBB.1.5 (23A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
 XBB.1.5 (23A) sigue siendo el linaje circulante aparentemente más apto. Ya es dominante en la costa este de los EE. UU. y se prevé que lo sea en el resto de los Estados Unidos a mediados de febrero 2023. 
@@ -26,7 +44,7 @@ XBB.1.5 (23A) sigue siendo el linaje circulante aparentemente más apto. Ya es d
 En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando cerca del [70% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
 
 
-XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región del gen de la proteína “Spike”. XBB tiene las mutaciones S:V455P (de BJ.1) y S:N460K (de BM.1.1.1). También contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
+XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región S1 del gen de la proteína “Spike”. XBB contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
 
 
 **XBB.1.5**, surge con una nueva mutación clave: **F486P**. La sustitución S:F486P se distingue de las anteriores debido a que requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) [aumente la afinidad significativamente al restaurar la unión al receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria](https://www.biorxiv.org/content/10.1101/2023.01.03.522427v2).
@@ -40,7 +58,7 @@ A menudo se discuten **dos rasgos principales** relacionados con la **proteína 
 Las **mutaciones en la región genómica** que codifica para la proteína "Spike" pueden proporcionar una **ventaja de ciertos sublinajes sobre otras variantes** que carecen de esas mutaciones. **Algunas variantes exitosas han sido buenas en uno de estos dos rasgos**. Recientemente, se está observando que los linajes en circulación están adquiriendo mutaciones que le han brindado **ventajas en estos dos rasgos (escape inmunológico y afinidad al ACE2)**.
 
 
-De los más de 800 sublinajes y recombinantes de Ómicron, los que están en circulación (a nivel mundial y local) son miembros de dos orígenes genéticos: **BA2 y BA.5**.
+De los más de 800 sublinajes y recombinantes de Ómicron, los que están en mayor circulación (a nivel mundial y local) son miembros de dos orígenes genéticos: **BA2 y BA.5**.
 
 
 BA.5:
