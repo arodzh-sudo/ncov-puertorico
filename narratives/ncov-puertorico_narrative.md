@@ -26,7 +26,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 CH.1.1 es descendiente de **BA.2.75 (22D)** que adquirió un conjunto mutacional importante en la región del dominio de unión al receptor (RBD), que es el objetivo principal de los anticuerpos neutralizantes contra el SARS-CoV-2.
 
 
-Esta sublinaje presenta **4 de las mutaciones más importante** según el estimador de escape de anticuerpos para mutaciones en el RBD de SARS-CoV-2, desarrollado por [Jesse Bloom en el Departamento de Ciencias del Genoma de la Universidad de Washington](https://jbloomlab.github.io/SARS2_RBD_Ab_escape_maps/escape-calc/):
+Este sublinaje presenta **4 de las mutaciones más importante** según el estimador de escape de anticuerpos para mutaciones en el RBD de SARS-CoV-2, desarrollado por [Jesse Bloom en el Departamento de Ciencias del Genoma de la Universidad de Washington](https://jbloomlab.github.io/SARS2_RBD_Ab_escape_maps/escape-calc/):
 
 
 **F486S, R346T, K444T, L452R**
