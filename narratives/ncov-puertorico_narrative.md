@@ -17,21 +17,21 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 ---
 
 
-# [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2 - 2023](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_19c13_6258c0.json?f_userOrOld=uploaded%20sample&label=id:node_7610599&tl=pango_lineage_usher)
+# [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_19c13_6258c0.json?f_userOrOld=uploaded%20sample&label=id:node_7610599&tl=pango_lineage_usher)
 
 Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendiente más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado XBB.1.9.1 y ha mantenido crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en todo el país.
 
 
-**XBB.1.9** -> ORF1a:G1819S, ORF1a:T4175I
+XBB.1.9 -> **ORF1a:G1819S, ORF1a:T4175I**
 
 
-**XBB.1.9.1** -> **S:F486P** (luego de C11956T), Indonesia/Singapore/Malaysia/UK
+XBB.1.9.1 -> **S:F486P** (luego de 11956T)
 
 
-**XBB.1.9.2** -> **S:F486P** (luego de 27507C, 16878T), Indonesia/Singapore
+XBB.1.9.2 -> **S:F486P** (luego de 27507C, 16878T)
 
 
-**EG.1 (XBB.1.9.2.1)** -> **S:Q613H** on N:L219F
+EG.1 (XBB.1.9.2.1) -> **S:Q613H** y **N:L219F**
 
 
 Al momento, en Puerto Rico no se han detectado sublinajes que pertenezcan a la familia de XBB.1.9
