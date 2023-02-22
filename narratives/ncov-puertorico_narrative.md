@@ -19,7 +19,10 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 
 # [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_19c13_6258c0.json?f_userOrOld=uploaded%20sample&label=id:node_7610599&tl=pango_lineage_usher)
 
-Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendiente más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado XBB.1.9.1 y ha mantenido crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en todo el país.
+Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendientes más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. 
+
+
+Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado XBB.1.9.1 y ha mantenido crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en todo el país.
 
 
 XBB.1.9 -> **ORF1a:G1819S, ORF1a:T4175I**
@@ -34,12 +37,14 @@ XBB.1.9.2 -> **S:F486P** (luego de 27507C, 16878T)
 EG.1 (XBB.1.9.2.1) -> **S:Q613H** y **N:L219F**
 
 
+
+
 Al momento, en Puerto Rico no se han detectado sublinajes que pertenezcan a la familia de XBB.1.9
 
 # [CH.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=gt-S_346,444,452,486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22D%20%28Omicron%29&p=full)
 
 
-**CH.1.1 (BA.2.75.3.4.1.1.1.1)** parece haber surgido en Agosto de 2022, posiblemente en Australia. [A febrero de 2023, la mayoría de las secuencias de este linaje se han detectado en el Reino Unido, pero también se han detectado muchas partes del mundo](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=CH.1.1*&). En los Estados Unidos, [se estima que CH.1.1 representa alrededor del 0.9-1.9% de las infecciones por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
+**CH.1.1 (BA.2.75.3.4.1.1.1.1)** parece haber surgido en Agosto de 2022, posiblemente en Australia. [A febrero de 2023, la mayoría de las secuencias de este linaje se han detectado en el Reino Unido, pero también se han detectado muchas partes del mundo](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=CH.1.1*&). En los Estados Unidos, [se estima que CH.1.1 representa alrededor del 0.9-1.7% de las infecciones por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
 
 
 CH.1.1 es descendiente de **BA.2.75 (22D)** que adquirió un conjunto mutacional importante en la región del dominio de unión al receptor (RBD), que es el objetivo principal de los anticuerpos neutralizantes contra el SARS-CoV-2.
@@ -57,10 +62,10 @@ En Puerto Rico, se han detectado 5 muestras clasificadas como CH.1.1 con fechas 
 # [XBB.1.5 (23A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
-XBB.1.5 (23A) sigue siendo el linaje circulante aparentemente más apto. Ya es dominante en la costa este de los EE. UU. y se prevé que lo sea en el resto de los Estados Unidos a mediados de febrero 2023. 
+XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos represanto [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). 
 
 
-En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Enero 2023, posiblemente representando cerca del [70% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Febrero 2023, posiblemente representando cerca del [70% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
 
 
 XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región S1 del gen de la proteína “Spike”. XBB contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
