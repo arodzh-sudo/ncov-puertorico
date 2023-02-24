@@ -6,7 +6,7 @@ date: "2022-12-13"
 dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=clock&m=div&p=full&showBranchLabels=all"
 abstract: "
 
-Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1.
+Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. Los linajes presentados en este narrativo son segun las siguientes versiones de pangolin y sus componentes: pangolin: 4.2, pangolin-data: 1.18.1.1, constellations: v0.1.10, scorpio: 0.3.17, usher 0.6.2, gofasta 1.2.0 , minimap2 2.24-r1122, faToVcf: 426.
 
 
 La tecnología de **secuenciacion de proxima generación (NGS, por sus siglas en ingles)** permite detectar grupos de casos y monitorear nuevas variantes del virus. Los grupos de virus que comparten un conjunto de mutaciones en el genoma se denominan linajes. Algunas variantes que pertenecen a linajes específicos pueden tener características como la capacidad de propagarse más rápidamente, causar una enfermedad más grave o afectar el tratamiento clínico, como el tratamiento con anticuerpos monoclonales. Estas variantes pueden clasificarse como variantes de interés (VOI), variantes en seguimiento (VBM), variantes de preocupación (VOC) o variantes de gran preocupación.
@@ -22,7 +22,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendientes más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. 
 
 
-Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado XBB.1.9.1 y ha mantenido crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en todo el país.
+Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y ha mantenido un crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en toda la nación.
 
 
 XBB.1.9 -> **ORF1a:G1819S, ORF1a:T4175I**
@@ -59,7 +59,7 @@ Este sublinaje presenta **4 de las mutaciones más importante** según el estima
 En Puerto Rico, se han detectado 5 muestras clasificadas como CH.1.1 con fechas de colección entre Noviembre y Enero 2023.
 
 
-# [XBB.1.5 (23A)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
+# [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
 XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos represanto [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). 
