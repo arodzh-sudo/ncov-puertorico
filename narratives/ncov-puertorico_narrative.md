@@ -17,7 +17,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 ---
 
 
-# [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_1097b_ca7b30.json?f_userOrOld=uploaded%20sample&label=id:node_7630886)
+# [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_1a1cd_f56920.json?f_userOrOld=uploaded%20sample)
 
 Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendientes más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. 
 
@@ -34,7 +34,7 @@ XBB.1.9.1 -> **S:F486P** (adicional a 11956T)
 XBB.1.9.2 -> **S:F486P** (adicional a 27507C, 16878T)
 
 
-EG.1 (XBB.1.9.2.1) -> **S:Q613H** y **N:L219F**
+EG.1 (XBB.1.9.2.1) -> **N:L219F** y **S:Q613H**
 
 
 XBB.1.9.3 -> **ORF1ab:G6406S**
@@ -107,7 +107,7 @@ Actualmente, XBB.1.5 es el linaje predominante en Puerto Rico con una frecuencia
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
 
-La evolución del SARS-CoV-2 se ha caracterizado por la aparición de conjuntos de mutaciones, en el contexto de "variantes de interés", que afectan las características del virus, incluidas la **transmisibilidad y la antigenicidad**, probablemente **en respuesta al perfil inmunitario cambiante de la población humana**.
+La evolución del SARS-CoV-2 se ha caracterizado por la aparición de conjuntos de mutaciones, en el contexto de "variantes de preocupación", que afectan las características del virus, incluidas la **transmisibilidad y la antigenicidad**, probablemente **en respuesta al perfil inmunitario cambiante de la población humana**.
 
 
 Se espera que una pequeña minoría de mutaciones afecte el fenotipo del virus de una manera que confiera una ventaja de aptitud, al menos en algunos contextos. Tales **mutaciones pueden alterar varios aspectos de la biología del virus, como la patogenicidad, la infectividad, la transmisibilidad y/o la antigenicidad**. Aunque se debe tener cuidado de no confundir las mutaciones que simplemente están presentes en los linajes en crecimiento con mutaciones que cambian la biología del virus.
