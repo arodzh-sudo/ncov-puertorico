@@ -17,30 +17,18 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 ---
 
 
-# [Actualización - 22 de febrero de 2023, XBB.1.9.1 y XBB.1.9.2](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_1a1cd_f56920.json?f_userOrOld=uploaded%20sample)
+# [Actualización - 27 de marzo de 2023, XBB.* + S:486P](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_2eba6_197810.json?f_userOrOld=uploaded%20sample&label=id:node_7680966)
 
-Los sublinajes **(XBB.1.9.1 y XBB.1.9.2)** son los descendientes más recientes del linaje **XBB**, que han adquirido varias sustituciones de preocupación, entre ellas S:486P, sustitución clave en el sublinaje XBB.1.5 y se encuentran en crecimiento en distintas partes de Europa y Asia. 
-
-
-Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=XBB.1.9*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y ha mantenido un crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en toda la nación.
+Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo en todo el mundo.
 
 
-XBB.1.9 -> **ORF1a:G1819S, ORF1a:T4175I**
+A pesar de que los linajes similares a XBB.1.5 varían en su abundancia relativa en todo el mundo, su presencia aumenta en todas partes. En muestras recientes del noreste de EE. UU., **XBB.1.5 representa alrededor del 90% de las secuencias**. Por otra parte, en paises asiaticos como Japón, linajes XBB.* + S:F486P ya son responsable de alrededor del 37% de las secuencias genomicas. 
 
 
-XBB.1.9.1 -> **S:F486P** (adicional a 11956T)
+Además de XBB.1.5, el principal linaje XBB con S:F486P es XBB.1.9.2. Este linaje es más común en el sudeste asiático: en particular, Singapur, Indonesia y Malasia. Sin embargo, **hay al menos otros 34 linajes de XBB con S:F486P** y es posible que sean más comunes en paises donde la cobertura de secuenciación es baja.
 
 
-XBB.1.9.2 -> **S:F486P** (adicional a 27507C, 16878T)
-
-
-EG.1 (XBB.1.9.2.1) -> **N:L219F** y **S:Q613H**
-
-
-XBB.1.9.3 -> **ORF1ab:G6406S**
-
-
-Al momento, en Puerto Rico no se han detectado sublinajes que pertenezcan a la familia de XBB.1.9
+Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=s%3A486p&nextcladePangoLineage=xbb*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y este ha mantenido un crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en toda la nación.
 
 
 # [CH.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?branchLabel=emerging_lineage&c=gt-S_346,444,452,486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22D%20%28Omicron%29&p=full)
@@ -56,9 +44,6 @@ Este sublinaje presenta **4 de las mutaciones más importante** según el estima
 
 
 **F486S, R346T, K444T, L452R**
-
-
-En Puerto Rico, se han detectado 5 muestras clasificadas como CH.1.1 con fechas de colección entre Noviembre y Enero 2023.
 
 
 # [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&c=gt-S_486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22F%20%28Omicron%29&p=full&tl=pango_lineage)
