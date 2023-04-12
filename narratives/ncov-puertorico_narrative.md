@@ -24,7 +24,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 XBB.1.16 se diferencia de XBB.1.5 por tener **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. Se ha detectado que en alrededor de 20 % de los genomas que corresponden a XBB.1.16, estos tienen **una mutación en la proteína Spike T547I**, por lo que recientemente se designó el sublinaje XBB.1.16.1 para diferenciarlas de otros XBB.1.16.
 
 
-El **aminoácido 478 es T (treonina)** es la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos.
+El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos.
 
 
 Se ha detectado XBB.1.16 fuera de la India: en Singapur representó alrededor del 5 % de las muestras recolectadas en las últimas semanas, en los Estados Unidos y Europa, se ha detectado pero apenas por debajo del 1 % de las muestras recolectadas, pero se espera que aumente la frecuencia de este sublinaje.
@@ -50,7 +50,7 @@ Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según e
 XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos represanto [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). 
 
 
-En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Febrero 2023, posiblemente representando cerca del [70% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Marzo 2023, posiblemente representando alrededor del [90% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
 
 
 XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región S1 del gen de la proteína “Spike”. XBB contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
@@ -223,17 +223,3 @@ Dentro del “Spike”, BQ.1 tiene otras mutaciones en **S:K444T y S:N460K**. Fu
 
 Varios linajes dentro de BQ.1, en particular el sublinaje **BQ.1.1**, ha adquirido una mutación adicional [**S:R346T** que ayuda al virus a evadir los anticuerpos neutralizantes](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22)00642-9/fulltext).
 
-
-# [CH.1.1 - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months?c=gt-S_346,444,452,486&d=tree,entropy&f_country=Puerto%20Rico&label=clade:22D%20%28Omicron%29&p=full)
-
-
-**CH.1.1 (BA.2.75.3.4.1.1.1.1)** parece haber surgido en Agosto de 2022, posiblemente en Australia. [A febrero de 2023, la mayoría de las secuencias de este linaje se han detectado en el Reino Unido, pero también se han detectado muchas partes del mundo](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?nextcladePangoLineage=CH.1.1*&). En los Estados Unidos, [se estima que CH.1.1 representa alrededor del 0.9-1.7% de las infecciones por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
-
-
-CH.1.1 es descendiente de **BA.2.75 (22D)** que adquirió un conjunto mutacional importante en la región del dominio de unión al receptor (RBD), que es el objetivo principal de los anticuerpos neutralizantes contra el SARS-CoV-2.
-
-
-Este sublinaje presenta **4 de las mutaciones más importante** según el estimador de escape de anticuerpos para mutaciones en el RBD de SARS-CoV-2, desarrollado por [Jesse Bloom en el Departamento de Ciencias del Genoma de la Universidad de Washington](https://jbloomlab.github.io/SARS2_RBD_Ab_escape_maps/escape-calc/):
-
-
-**F486S, R346T, K444T, L452R**
