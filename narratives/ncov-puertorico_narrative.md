@@ -30,7 +30,7 @@ El **aminoácido 478 es T (treonina)** es la forma típica que se encuentra en e
 Se ha detectado XBB.1.16 fuera de la India: en Singapur representó alrededor del 5 % de las muestras recolectadas en las últimas semanas, en los Estados Unidos y Europa, se ha detectado pero apenas por debajo del 1 % de las muestras recolectadas, pero se espera que aumente la frecuencia de este sublinaje.
 
 
-# [Actualización - XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_362e8_6c7420.json?f_userOrOld=uploaded%20sample&label=id:node_5826133)
+# [XBB.1.9](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_362e8_6c7420.json?f_userOrOld=uploaded%20sample&label=id:node_5826133)
 
 Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo globalmente.
 
