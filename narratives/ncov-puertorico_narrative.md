@@ -3,7 +3,7 @@ title: Vigilancia Genómica de SARS-CoV-2 en Puerto Rico
 authors: Arnold Rodriguez-Hilario, MS
 authorLinks: "https://github.com/arodzh-sudo"
 date: "2022-12-13"
-dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=emerging_lineage&c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=clock&m=div&p=full&showBranchLabels=all"
+dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=clock&m=div&p=full&showBranchLabels=all"
 abstract: "
 
 Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. Los linajes presentados en este narrativo son segun las siguientes versiones de pangolin y sus componentes: pangolin: 4.2, pangolin-data: 1.19, constellations: v0.1.10, scorpio: 0.3.17 y usher 0.6.2
@@ -30,7 +30,7 @@ El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en e
 Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 15%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya alcanzó 1% de proporcion en las muestras recolectadas.
 
 
-# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_13740_ea9f90.json?f_userOrOld=uploaded%20sample&label=id:node_5828031)
+# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_362e8_6c7420.json?f_userOrOld=uploaded%20sample&label=id:node_5826133)
 
 Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo globalmente.
 
@@ -44,7 +44,7 @@ Además de XBB.1.5, los principales linajes XBB con S:F486P en crecimiento son X
 Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=s%3A486p&nextcladePangoLineage=xbb*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y este ha mantenido un crecimiento en la costa sureste, centro y oeste, [representando ~14% de las secuencias genomicas en las ultimas semanas](https://cov-spectrum.org/explore/United%20Kingdom/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=XBB.1.9.1*&).
 
 
-# [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?d=tree,entropy&f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
+# [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
 XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos representando [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). En Puerto Rico, XBB.1.5 posiblemente representa alrededor del [90% de los casos de infeccion por SARS-CoV-2](https://www.salud.gov.pr/CMS/DOWNLOAD/7545).
