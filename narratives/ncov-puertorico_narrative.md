@@ -16,41 +16,38 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 12 de abril de 2023, XBB.1.16.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_364cb_6c7490.json?f_userOrOld=uploaded%20sample&label=id:node_5826871)
+# [Actualización - 12 de abril de 2023, XBB.1.16.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_13610_ea9f30.json?f_userOrOld=uploaded%20sample&label=id:node_5828772)
 
-**XBB.1.16** es otro sublinaje reciente de la variante Ómicron (XBB) que parece haber surgido y extendido en India, **representado >50%** de las muestras recolectadas en las últimas semanas.
+**XBB.1.16** es otro sublinaje reciente de la variante Ómicron (XBB) que parece haber surgido y extendido en India, [representado >70%](https://cov-spectrum.org/explore/India/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas.
 
 
-XBB.1.16 se diferencia de XBB.1.5 por tener **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. Se ha detectado que en alrededor de 20 % de los genomas que corresponden a XBB.1.16, estos tienen **una mutación en la proteína Spike T547I**, por lo que recientemente se designó el sublinaje XBB.1.16.1 para diferenciarlas de otros XBB.1.16.
+XBB.1.16 se diferencia de XBB.1.5 por tener **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. Se ha detectado que en alrededor de 20% de los genomas que corresponden a XBB.1.16, estos tienen **una mutación en la proteína Spike T547I**, por lo que [recientemente se designó el sublinaje XBB.1.16.1](https://github.com/cov-lineages/pango-designation/issues/1772) para diferenciarlas de otros XBB.1.16.
 
 
 El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos.
 
 
-Se ha detectado XBB.1.16 fuera de la India: en Singapur representó alrededor del 5 % de las muestras recolectadas en las últimas semanas, en los Estados Unidos y Europa, se ha detectado pero apenas por debajo del 1 % de las muestras recolectadas, pero se espera que aumente la frecuencia de este sublinaje.
+Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 15%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya alcanzó 1% de proporcion en las muestras recolectadas.
 
 
-# [XBB.1.9](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_362e8_6c7420.json?f_userOrOld=uploaded%20sample&label=id:node_5826133)
+# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_13740_ea9f90.json?f_userOrOld=uploaded%20sample&label=id:node_5828031)
 
 Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo globalmente.
 
 
-A pesar de que los linajes similares a XBB.1.5 varían en su abundancia relativa en el mundo, su presencia aumenta en todas partes. En muestras recientes del noreste de los Estados Unidos, [**XBB.1.5 representa alrededor del 90% de las secuencias**](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). Por otra parte, en paises asiaticos como Japón, linajes XBB.* + S:F486P ya son responsable de alrededor del 37% de las secuencias genomicas. 
+A pesar de que los linajes similares a XBB.1.5 varían en su abundancia relativa en el mundo, su presencia aumenta en todas partes. En muestras recientes del noreste de los Estados Unidos, [**XBB.1.5 representa alrededor del 90% de las secuencias**](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
 
 
-Además de XBB.1.5, los principales linajes XBB con S:F486P en crecimiento son XBB.1.9.1 y XBB.1.9.2. El sublinaje XBB.1.9.2 es más común en el sudeste asiático: en particular, Singapur, Indonesia y Malasia. Sin embargo, **hay al menos otros 34 linajes de XBB con S:F486P** y es posible que sean más comunes en paises donde la cobertura de secuenciación es baja.
+Además de XBB.1.5, los principales linajes XBB con S:F486P en crecimiento son XBB.1.9.1 y XBB.1.9.2. El sublinaje XBB.1.9.2 es más común en el sudeste asiático: en particular, Singapur, Indonesia y Malasia. Sin embargo, **hay al menos otros 30+ linajes de XBB con S:F486P** y es posible que sean más comunes en paises donde la cobertura de secuenciación es baja.
 
 
-Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=s%3A486p&nextcladePangoLineage=xbb*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y este ha mantenido un crecimiento en la costa sureste, centro y oeste, aunque sigue representando <1 % en toda la nación.
+Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=s%3A486p&nextcladePangoLineage=xbb*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y este ha mantenido un crecimiento en la costa sureste, centro y oeste, [representando ~14% de las secuencias genomicas en las ultimas semanas](https://cov-spectrum.org/explore/United%20Kingdom/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=XBB.1.9.1*&).
 
 
 # [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?d=tree,entropy&f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
-XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos represanto [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). 
-
-
-En Puerto Rico, se han detectado múltiples muestras clasificadas XBB.1.5 con fechas de colección entre Diciembre 2022 y Marzo 2023, posiblemente representando alrededor del [90% de los casos de infeccion por SARS-CoV-2](https://observablehq.com/@andy-bloch/walgreens-covid-19-tracker).
+XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos representando [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). En Puerto Rico, XBB.1.5 posiblemente representa alrededor del [90% de los casos de infeccion por SARS-CoV-2](https://www.salud.gov.pr/CMS/DOWNLOAD/7545).
 
 
 XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región S1 del gen de la proteína “Spike”. XBB contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
@@ -77,6 +74,7 @@ La recurrencia de **ΔY144** es preocupante con respecto a la **respuesta de ant
 
 
 Esto destaca la necesidad del desarrollo de ensayos moleculares (qPCR) para la detección acelerada de sublinajes y estimaciones de proporción cuando el número de casos positivos es bajo o se sospecha que se ha introducido una nueva variante en la isla.
+
 
 # [SARS-CoV-2 - Puerto Rico 2020](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=pango_lineage&d=tree,frequencies&dmax=2020-07-23&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
 
