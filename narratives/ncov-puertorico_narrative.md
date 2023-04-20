@@ -16,7 +16,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 12 de abril de 2023, XBB.1.16.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_13610_ea9f30.json?f_userOrOld=uploaded%20sample&label=id:node_5828772)
+# [Actualización - 12 de abril de 2023, XBB.1.16.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38ab4_13a990.json?f_userOrOld=uploaded%20sample&label=id:node_5830440)
 
 **XBB.1.16** es otro sublinaje reciente de la variante Ómicron (XBB) que parece haber surgido y extendido en India, [representado >70%](https://cov-spectrum.org/explore/India/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas.
 
@@ -24,13 +24,13 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 XBB.1.16 se diferencia de XBB.1.5 por tener **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. Se ha detectado que en alrededor de 20% de los genomas que corresponden a XBB.1.16, estos tienen **una mutación en la proteína Spike T547I**, por lo que [recientemente se designó el sublinaje XBB.1.16.1](https://github.com/cov-lineages/pango-designation/issues/1772) para diferenciarlas de otros XBB.1.16.
 
 
-El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos.
+El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de XBB.1.5.
 
 
 Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 15%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya alcanzó 1% de proporcion en las muestras recolectadas.
 
 
-# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_362e8_6c7420.json?f_userOrOld=uploaded%20sample&label=id:node_5826133)
+# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38fb0_13ad00.json?f_userOrOld=uploaded%20sample&label=id:node_5829687)
 
 Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo globalmente.
 
