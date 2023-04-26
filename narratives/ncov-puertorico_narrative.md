@@ -28,7 +28,7 @@ En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **dos mutaciones adic
 Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 24%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, mientras que en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya ha alcanzado ~7.4% de proporcion en las muestras recolectadas recientemente.
 
 
-El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, [XBB.1.16 (23B) ha sido designada una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
+El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
 
 
 # [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38fb0_13ad00.json?f_userOrOld=uploaded%20sample&label=id:node_5829687)
