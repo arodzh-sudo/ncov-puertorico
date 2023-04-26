@@ -16,18 +16,19 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 12 de abril de 2023, XBB.1.16.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38ab4_13a990.json?f_userOrOld=uploaded%20sample&label=id:node_5830440)
-
-**XBB.1.16** es otro sublinaje reciente de la variante Ómicron (XBB) que parece haber surgido y extendido en India, [representado >70%](https://cov-spectrum.org/explore/India/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas.
+# [Actualización - 26 de abril de 2023, XBB.1.16 (23B)](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38ab4_13a990.json?f_userOrOld=uploaded%20sample&label=id:node_5830440)
 
 
-XBB.1.16 se diferencia de XBB.1.5 por tener **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. Se ha detectado que en alrededor de 20% de los genomas que corresponden a XBB.1.16, estos tienen **una mutación en la proteína Spike T547I**, por lo que [recientemente se designó el sublinaje XBB.1.16.1](https://github.com/cov-lineages/pango-designation/issues/1772) para diferenciarlas de otros XBB.1.16.
+XBB.1.16 (23B) se diferencia de XBB (22F) principalmente a través de 3 nuevas mutaciones de Spike: S:E180V; S:K478R; & S:486P (adquirida independientemente de otros sublinajes XBB). Adicional, S:G252V está presente del XBB.1 ancestral.
 
 
-El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wildtype) del SARS-CoV-2 original y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de XBB.1.5.
+En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wild type) del SARS-CoV-2 y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de S:486P.
 
 
-Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 15%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya alcanzó 1% de proporcion en las muestras recolectadas.
+Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 24%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, mientras que en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya ha alcanzado ~7.4% de proporcion en las muestras recolectadas recientemente.
+
+
+El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, [XBB.1.16 (23B) ha sido designada una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
 
 
 # [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38fb0_13ad00.json?f_userOrOld=uploaded%20sample&label=id:node_5829687)
