@@ -16,7 +16,13 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 26 de abril de 2023, XBB.1.16 (23B)](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38ab4_13a990.json?f_userOrOld=uploaded%20sample&label=id:node_5830440)
+# [Actualización - 28 de abril de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
+
+
+Actualmente, las principales familias de sublinajes de XBB.* son: XBB.1.5*, XBB.1.9.1*, XBB.1.9.2*, XBB.2.3* y XBB.1.16*. En Puerto Rico, se han detectado sublinajes pertenecientes a todos estos sublinajes incluyendo: XBB.1.16.1, XBB.2.3, XBB.1.9.1, FL.2 (XBB.1.9.1.2), XBB.1.9.2, EG.1 (XBB.1.9.2.1), EG.1.1 (XBB.1.9.2.1.1), y XBB.1.5, el cual se mantiene como el sublinaje dominante.
+
+
+El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
 
 
 XBB.1.16 (23B) se diferencia de XBB (22F) principalmente a través de 3 nuevas mutaciones de Spike: S:E180V; S:K478R; & S:486P (adquirida independientemente de otros sublinajes XBB). Adicional, S:G252V está presente del XBB.1 ancestral.
@@ -25,36 +31,7 @@ XBB.1.16 (23B) se diferencia de XBB (22F) principalmente a través de 3 nuevas m
 En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wild type) del SARS-CoV-2 y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de S:486P.
 
 
-Se ha detectado XBB.1.16 fuera de la India: en [Singapur representó alrededor del 24%](https://cov-spectrum.org/explore/Singapore/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) de las muestras recolectadas en las últimas semanas, mientras que en los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya ha alcanzado ~7.4% de proporcion en las muestras recolectadas recientemente.
-
-
-El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
-
-
-# [XBB.1.9.*](https://nextstrain.org/fetch/genome.ucsc.edu/trash/ct/singleSubtreeAuspice_genome_38fb0_13ad00.json?f_userOrOld=uploaded%20sample&label=id:node_5829687)
-
-Los linajes similares a XBB.1.5 **(XBB con sustitucion S:F486P)** continúan creciendo globalmente.
-
-
-A pesar de que los linajes similares a XBB.1.5 varían en su abundancia relativa en el mundo, su presencia aumenta en todas partes. En muestras recientes del noreste de los Estados Unidos, [**XBB.1.5 representa alrededor del 90% de las secuencias**](https://covid.cdc.gov/covid-data-tracker/#variant-proportions).
-
-
-Además de XBB.1.5, los principales linajes XBB con S:F486P en crecimiento son XBB.1.9.1 y XBB.1.9.2. El sublinaje XBB.1.9.2 es más común en el sudeste asiático: en particular, Singapur, Indonesia y Malasia. Sin embargo, **hay al menos otros 30+ linajes de XBB con S:F486P** y es posible que sean más comunes en paises donde la cobertura de secuenciación es baja.
-
-
-Estos sublinajes presentan [mayor transmisibilidad relativa que XBB.1.5 según estimaciones en la plataforma cov-SPECTRUM](https://cov-spectrum.org/explore/World/AllSamples/Past6M/variants?aaMutations=s%3A486p&nextcladePangoLineage=xbb*&). En los Estados Unidos, se ha detectado el sublinaje XBB.1.9.1 y este ha mantenido un crecimiento en la costa sureste, centro y oeste, [representando ~14% de las secuencias genomicas en las ultimas semanas](https://cov-spectrum.org/explore/United%20Kingdom/AllSamples/from%3D2023-03-12%26to%3D2023-04-07/variants?nextcladePangoLineage=XBB.1.9.1*&).
-
-
-# [XBB.1.5 (23A) - Puerto Rico 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
-
-
-XBB.1.5 (23A) sigue siendo el linaje de mayor circulación en Puerto Rico. Como se habia previsto, XBB.1.5 ya es el linaje dominante en los Estados Unidos representando [~80% de los casos de infección por SARS-CoV-2](https://covid.cdc.gov/covid-data-tracker/#variant-proportions). En Puerto Rico, XBB.1.5 posiblemente representa alrededor del [90% de los casos de infeccion por SARS-CoV-2](https://www.salud.gov.pr/CMS/DOWNLOAD/7545).
-
-
-XBB.1.5 es descendiente de XBB (22F), una variante recombinante, lo que significa que su genoma consiste en una combinación de dos variantes "parientes" diferentes. **XBB es una recombinante del linaje BJ.1 (BA.2.10.1.1) (21L) y BM.1.1.1 (BA.2.75.3.1.1.1) (22D)**, con un punto de ruptura en la región S1 del gen de la proteína “Spike”. XBB contiene el conjunto mutacional que se encuentra en todos los descendientes de BA.2, esto incluye mutaciones en el gen de la proteína “Spike” de BJ.1 en **S:V83A, S:Y144-, S:H146Q, S:Q183E, S:V213E, S:G339H, S :R346T, S:L386I, S:V455P y S:G446S**, y mutaciones de BM.1.1.1 en **S:N460K, S:F486S y S:F490S**.
-
-
-**XBB.1.5**, surge con una nueva mutación clave: **F486P**. La sustitución S:F486P se distingue de las anteriores debido a que requiere dos sustituciones de nucleótidos: **T23018C y T23019C**. Se prevé que esta mutación (S:486P) [aumente la afinidad significativamente al restaurar la unión al receptor humano ACE2 mientras se mantiene un perfil de evasión inmunitaria](https://www.biorxiv.org/content/10.1101/2023.01.03.522427v2).
+En los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya ha alcanzado ~7.4% de proporcion en las muestras recolectadas recientemente.
 
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
