@@ -6,7 +6,7 @@ date: "2022-12-13"
 dataset: "https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=pango_lineage&d=tree,frequencies&f_country=Puerto%20Rico&l=clock&m=div&p=full&showBranchLabels=all"
 abstract: "
 
-Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. Los linajes presentados en este narrativo son segun las siguientes versiones de pangolin y sus componentes: pangolin: 4.2, pangolin-data: 1.19, constellations: v0.1.10, scorpio: 0.3.17 y usher 0.6.2
+Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. Los linajes presentados en este narrativo son segun el clasificador Nextclade y las siguientes versiones de pangolin y sus componentes: pangolin: 4.2, pangolin-data: 1.19, constellations: v0.1.10, scorpio: 0.3.17 y usher 0.6.2
 
 
 La tecnología de **secuenciacion de proxima generación (NGS, por sus siglas en ingles)** permite detectar grupos de casos y monitorear nuevas variantes del virus. Los grupos de virus que comparten un conjunto de mutaciones en el genoma se denominan linajes. Algunas variantes que pertenecen a linajes específicos pueden tener características como la capacidad de propagarse más rápidamente, causar una enfermedad más grave o afectar el tratamiento clínico, como el tratamiento con anticuerpos monoclonales. Estas variantes pueden clasificarse como variantes de interés (VOI), variantes en seguimiento (VBM), variantes de preocupación (VOC) o variantes de gran preocupación.
@@ -19,7 +19,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 # [Actualización - 28 de abril de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23A%20%28Omicron%29&p=full&tl=pango_lineage)
 
 
-Actualmente, las principales familias de sublinajes de XBB.* son: XBB.1.5*, XBB.1.9.1*, XBB.1.9.2*, XBB.2.3* y XBB.1.16*. En Puerto Rico, se han detectado sublinajes pertenecientes a todos estos sublinajes incluyendo: XBB.1.16.1, XBB.2.3, XBB.1.9.1, FL.2 (XBB.1.9.1.2), XBB.1.9.2, EG.1 (XBB.1.9.2.1), EG.1.1 (XBB.1.9.2.1.1), y XBB.1.5, el cual se mantiene como el sublinaje dominante.
+Actualmente, las principales familias de sublinajes de XBB son: XBB.1.5, XBB.1.9.1, XBB.1.9.2, XBB.2.3 y XBB.1.16. En Puerto Rico, se han detectado sublinajes pertenecientes a estos sublinajes incluyendo: XBB.1.16.1, XBB.2.3, XBB.1.9.1, FL.2 (XBB.1.9.1.2), XBB.1.9.2, EG.1 (XBB.1.9.2.1), EG.1.1 (XBB.1.9.2.1.1), EK.3 (XBB.1.5.13.3), FD.2 (XBB.1.5.15.2) y XBB.1.5, el cual se mantiene como el sublinaje dominante.
 
 
 El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
@@ -28,21 +28,18 @@ El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el
 XBB.1.16 (23B) se diferencia de XBB (22F) principalmente a través de 3 nuevas mutaciones de Spike: S:E180V; S:K478R; & S:486P (adquirida independientemente de otros sublinajes XBB). Adicional, S:G252V está presente del XBB.1 ancestral.
 
 
-En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **dos mutaciones adicionales en la proteína Spike: E180V y K478R**. El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wild type) del SARS-CoV-2 y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de S:486P.
-
-
-En los [Estados Unidos](https://cov-spectrum.org/explore/United%20States/AllSamples/from%3D2023-04-04%26to%3D2023-04-25/variants?nextcladePangoLineage=xbb.1.16*&) se ha detectado y ya ha alcanzado ~7.4% de proporcion en las muestras recolectadas recientemente.
+En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **las mutaciones adicionales en la proteína Spike: E180V y K478R**. El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wild type) del SARS-CoV-2 y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de S:486P.
 
 
 # [Deriva antigénica recurrente de H69/V70 e Y144](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=gt-S_69,70,144&d=tree,frequencies&f_country=Puerto%20Rico&p=full&tl=pango_lineage)
 
-La evolución del SARS-CoV-2 se ha caracterizado por la aparición de conjuntos de mutaciones, en el contexto de "variantes de preocupación", que afectan las características del virus, incluidas la **transmisibilidad y la antigenicidad**, probablemente **en respuesta al perfil inmunitario cambiante de la población humana**.
+La evolución del SARS-CoV-2 se ha caracterizado por la aparición de conjuntos de mutaciones, en el contexto de "variantes de preocupación", que afectan las características del virus, incluidas la **transmisibilidad y la antigenicidad** probablemente **en respuesta al perfil inmunitario cambiante de la población humana**.
 
 
 Se espera que una pequeña minoría de mutaciones afecte el fenotipo del virus de una manera que confiera una ventaja de aptitud, al menos en algunos contextos. Tales **mutaciones pueden alterar varios aspectos de la biología del virus, como la patogenicidad, la infectividad, la transmisibilidad y/o la antigenicidad**. Aunque se debe tener cuidado de no confundir las mutaciones que simplemente están presentes en los linajes en crecimiento con mutaciones que cambian la biología del virus.
 
 
-La mayor parte de la pandemia ha sido impulsada por **3 mutaciones recurrentes** del dominio amino terminal (NTD): **H69/V70 e Y144**.
+La mayor parte de la pandemia ha sido impulsada por **3 mutaciones recurrentes** del dominio amino terminal (NTD): **H69/V70 & Y144**.
 
 
 La deleción **Δ69–70** ha surgido varias veces en los númerosos sublinajes de SARS-CoV-2 y se entiende que **altera la conformación de un bucle expuesto del NTD** y se ha reportado que este cambio está asociado con una **mayor capacidad de infectividad del virus**.
