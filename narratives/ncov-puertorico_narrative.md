@@ -139,7 +139,7 @@ Las 6 mutaciones Spike adicionales en BA.2 son: **S:T19I, S:V213G, S:S371F, S:T3
 El linaje **BA.2 superó al linaje BA.1.1 en marzo 2022** para convertirse en linaje predominante en Puerto Rico durante mediados del 2022. BA.2 y varios sublinajes (**BA.2.9, BA.2.73, BA.2.12.1**) causaron el pico epidémico en Puerto Rico que se observó durante el verano 2022, comparable al pico epidemico de BA.1.1 en diciembre 2021 y enero 2022.
 
 
-# [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?branchLabel=aa&d=tree,frequencies&f_country=Puerto%20Rico&f_pango_lineage=BA.2,BA.2.1,BA.2.10,BA.2.10.1,BA.2.12,BA.2.12.1,BA.2.13,BA.2.13.1,BA.2.18,BA.2.20,BA.2.21,BA.2.3,BA.2.3.17,BA.2.3.20,BA.2.31.1,BA.2.37,BA.2.65,BA.2.73,BA.2.9&label=clade:21L%20%28BA.2%29&p=full)
+# [BA.2 (21L) - Puerto Rico 2021-2022 ](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/all-time?c=clade_membership&d=tree,frequencies&f_country=Puerto%20Rico&label=clade:21L%20%28BA.2%29&p=full&tl=pango_lineage)
 
 
 BA.2 (21L) fue la última variante que llegó a ser casi dominante globalmente. Desde entonces, fue el linaje que donó su estructura genética para dar paso a las diversas variantes que han surgido desde el 2022 hasta la actualidad. BA.4 (22A) y BA.5 (22B) estuvieron cerca de dominar en la mayoría de las regiones excepto en el subcontinente indio, donde BA.2.75 (22D) surgió antes de que BA.5 se estableciera. 
