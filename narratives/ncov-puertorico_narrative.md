@@ -16,16 +16,24 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 26 de mayo de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:22F%20%28XBB%29&p=full&tl=pango_lineage)
+# [Actualización - 23 de junio de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?label=clade:23A%20%28XBB.1.5%29&showBranchLabels=all)
+
+Al igual que ocurrió con S:486P, **S:456L** se ha adquirido de forma independiente en muchos sublinajes de XBB como **XBB.1.5.10, XBB.1.5.59, XBB.1.5.72, GN.1 (XBB.1.5.73) y XBB.1.16.6**. Algunos de los linajes parecen tener una ventaja de crecimiento sobre otros. Otra mutación que está siendo adquirida por muchos sublinajes XBB es **S:478R**, como se ve en **XBB.1.16, FP.2.1 (XBB.1.11.1.2.1), XBB.1.5.27, XBB.1.5.28 y XBB.1.5. 85**.
 
 
-Actualmente, las principales familias de sublinajes de XBB son: XBB.1.5, XBB.1.9.1, XBB.1.9.2, XBB.2.3 y XBB.1.16. En Puerto Rico, se han detectado sublinajes pertenecientes a estos sublinajes incluyendo: XBB.1.16.1, XBB.2.3, XBB.1.9.1, FL.2 (XBB.1.9.1.2), XBB.1.9.2, EG.1 (XBB.1.9.2.1), EG.1.1 (XBB.1.9.2.1.1), EK.3 (XBB.1.5.13.3), FD.2 (XBB.1.5.15.2) y XBB.1.5, el cual se mantiene como el sublinaje dominante.
+Todavía no está claro si la coexistencia de 456L y 478R es beneficiosa más allá de tener una de las dos, pero al 23 de junio de 2023, la combinación **XBB + S:486P + S:456L + S:478R** solo se ha observado en 166 secuencias, principalmente en el sublinaje **XBB.1.16.6**.
 
 
-El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
+XBB.1.5 sigue siendo el sublinaje dominante en Puerto Rico con otros linajes como **XBB.1.9.1 y FE.1.1.1 (XBB.1.18.1.1.1.1)** creciendo en proporción. Todavía no está claro qué sublinaje reemplazará a XBB.1.5, pero los esfuerzos de vigilancia genómica local han podido detectar rápidamente múltiples sublinajes emergentes con mayor ventaja de crecimiento relativo, como **EG.5.1 (XBB.1.9.2.5.1) GJ.1 ()XBB.2.3.3.1), XBB.1.5.72, XBB.1.16.6, XBB.1.41 y GN.1 (XBB.1.5.73)**.
 
 
-XBB.1.16 (23B) se diferencia de XBB (22F) principalmente a través de 3 nuevas mutaciones de Spike: S:E180V; S:K478R; & S:486P (adquirida independientemente de otros sublinajes XBB). Adicional, S:G252V está presente del XBB.1 ancestral.
+# [XBB.1.16] (https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?label=clade:23B%20%28XBB.1.16%29&showBranchLabels=all)
+
+
+Actualmente, las principales familias de sublinajes de XBB son: XBB.1.5, XBB.1.9.1, XBB.1.9.2, XBB.2.3 y XBB.1.16. El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
+
+
+**XBB.1.16 (23B)** se diferencia de XBB (22F) principalmente a través de 3 nuevas mutaciones de **Spike: S:E180V; S:K478R; & S:486P** (adquirida independientemente de otros sublinajes XBB). Adicional, S:G252V está presente del XBB.1 ancestral.
 
 
 En comparación con XBB.1.5 (23A), XBB.1.16 (23B) presenta **las mutaciones adicionales en la proteína Spike: E180V y K478R**. El **aminoácido 478 es T (treonina)** en la forma típica que se encuentra en el gen (wild type) del SARS-CoV-2 y **ha mutado a K (lisina) en Ómicron** (a través de una mutación de nucleótido C->A). **En XBB.1.16, el nucleótido A ha mutado ahora a G, dando como resultado el aminoácido R (arginina)**. Por lo tanto, esta no es una mutación de 2 pasos en el sentido de que siempre requiere 2 sustituciones de nucleótidos como en el caso de S:486P.
