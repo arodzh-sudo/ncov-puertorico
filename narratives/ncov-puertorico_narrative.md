@@ -16,7 +16,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 23 de junio de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?label=clade:23A%20%28XBB.1.5%29&showBranchLabels=all)
+# [Actualización - 23 de junio de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23A%20%28XBB.1.5%29&showBranchLabels=all)
 
 Al igual que ocurrió con S:486P, **S:456L** se ha adquirido de forma independiente en muchos sublinajes de XBB como **XBB.1.5.10, XBB.1.5.59, XBB.1.5.72, GN.1 (XBB.1.5.73) y XBB.1.16.6**. Algunos de los linajes parecen tener una ventaja de crecimiento sobre otros. Otra mutación que está siendo adquirida por muchos sublinajes XBB es **S:478R**, como se ve en **XBB.1.16, FP.2.1 (XBB.1.11.1.2.1), XBB.1.5.27, XBB.1.5.28 y XBB.1.5. 85**.
 
@@ -27,7 +27,7 @@ Todavía no está claro si la coexistencia de 456L y 478R es beneficiosa más al
 XBB.1.5 sigue siendo el sublinaje dominante en Puerto Rico con otros linajes como **XBB.1.9.1 y FE.1.1.1 (XBB.1.18.1.1.1.1)** creciendo en proporción. Todavía no está claro qué sublinaje reemplazará a XBB.1.5, pero los esfuerzos de vigilancia genómica local han podido detectar rápidamente múltiples sublinajes emergentes con mayor ventaja de crecimiento relativo, como **EG.5.1 (XBB.1.9.2.5.1) GJ.1 ()XBB.2.3.3.1), XBB.1.5.72, XBB.1.16.6, XBB.1.41 y GN.1 (XBB.1.5.73)**.
 
 
-# [XBB.1.16] (https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?label=clade:23B%20%28XBB.1.16%29&showBranchLabels=all)
+# [XBB.1.16](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?f_country=Puerto%20Rico&label=clade:23B%20%28XBB.1.16%29&showBranchLabels=all)
 
 
 Actualmente, las principales familias de sublinajes de XBB son: XBB.1.5, XBB.1.9.1, XBB.1.9.2, XBB.2.3 y XBB.1.16. El 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
