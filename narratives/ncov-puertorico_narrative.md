@@ -16,7 +16,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 "
 ---
 
-# [Actualización - 31 de julio de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?c=emerging_lineage&f_country=Puerto%20Rico&label=clade:22F%20%28XBB%29&showBranchLabels=all)
+# [Actualización - 31 de julio de 2023](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&f_country=Puerto%20Rico&label=clade:22F%20%28XBB%29&showBranchLabels=all)
 
 A inicios de junio de 2023, **XBB** y sus sublinajes recombinantes habían crecido a representar el **95% SARS-CoV-2** a nivel mundial. Debido a la gran transmisibilidad de esta versión del virus, se ha generado una gran diversidad de linajes descendientes de XBB (+500 sublinajes). Esto ha provocado la aparición de nuevas mutaciones en la proteína “Spike” bajo una inmensa presión selectiva (evolución convergente).
 
@@ -63,7 +63,7 @@ Sublinajes de interés detectados en Puerto Rico:
 XBB.1.5.10 con S:F456L, ha crecido alrededor hasta un 25% de frecuencia entre junio y julio 2023
 
 
-# [XBB.1.16 (Nextstrain clade 23B, S:180V + S:252V + S:478R + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=aa&f_country=Puerto%20Rico&label=clade:23B%20%28XBB.1.16%29)
+# [XBB.1.16 (Nextstrain clade 23B, S:180V + S:252V + S:478R + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=aa&f_country=Puerto%20Rico&label=clade:23B%20%28XBB.1.16%29&tl=pango_lineage)
 
 
 El pasado 17 de abril de 2023, la Organizacion Mundial de la Salud (OMS) y siguiendo el consejo del Grupo Asesor Técnico de la OMS sobre la Evolución Viral del SARS-CoV-2, ha designado [XBB.1.16 (23B) una Variante de Interés](https://www.who.int/docs/default-source/coronaviruse/21042023xbb.1.16ra-v2.pdf) tras un aumento sostenido en su prevalencia y una ventaja de crecimiento sostenida notificada por varios países. 
@@ -87,7 +87,7 @@ Sublinajes de interés detectados en Puerto Rico:
 **XBB.1.16.16** con **S:Q613H + S:S412N**
 
 
-# [XBB.1.9 (EG/FL/HN S:252V + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&f_country=Puerto%20Rico&label=emerging_lineage:XBB.1.9)
+# [XBB.1.9 (EG/FL/HN S:252V + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=emerging_lineage&f_country=Puerto%20Rico&label=emerging_lineage:XBB.1.9&tl=pango_lineage)
 
 Los sublinajes **XBB.1.9.1 y XBB.1.9.2** son descendientes de XBB.1 que adquirieron la mutacion **S:F486P** de manera independiente a XBB.1.5. Son los sublinajes de mayor crecimiento que contienen S:F486P detras de **XBB.1.16** y XBB.1.5. Los sublinajes XBB.1.9.1 y XBB.1.9.2 comparten las mutaciones **ORF1a:G1819S + ORF1a:T4175I + ORF9b:I5T**. A pesar de que ambos sublinajes fueron identificados como variantes bajo monitoreo por la Organizacion Mundial de la Salud, aun no reciben una asignacion de clado por parte de Nextstrain. No obstante, con el aumento de varios sublinajes preocupantes de XBB.1.9, como **EG.5.1/EG.5.1.1 y FL.1.5.1**, es probable que XBB.1.9 sea designado como [23C en las proximas semanas por el equipo de Nextstrain](https://github.com/nextstrain/ncov/issues/1073) debido a la rápida tasa de crecimiento; ahora con una proporción global de 20% a finales de julio de 2023.
 
