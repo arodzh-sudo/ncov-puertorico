@@ -9,7 +9,7 @@ abstract: "
 La tecnología de **secuenciacion de proxima generación (NGS, por sus siglas en ingles)** permite detectar grupos de casos y monitorear nuevas variantes del virus. Los grupos de virus que comparten un conjunto de mutaciones en el genoma se denominan linajes. Algunas variantes que pertenecen a linajes específicos pueden tener características como la capacidad de propagarse más rápidamente, causar una enfermedad más grave o afectar el tratamiento clínico, como el tratamiento con anticuerpos monoclonales. Estas variantes pueden clasificarse como variantes de interés (VOI), variantes bajo monitoreo (VBM), variantes de preocupación (VOC) o variantes de gran preocupación.
 
 
-Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. **Los linajes presentados en este narrativo son segun el clasificador Nextclade (dataset 2023-08-09)**.
+Se implementó un flujo de trabajo básico de **vigilancia genómica utilizando la plataforma Nextstrain** para monitorear en tiempo real, la evolución del **SARS-CoV-2 en Puerto Rico**. Este programa permite la visualización de árboles filogenéticos (relación evolutiva entre organismos) para evaluar la divergencia de los genomas de SARS-CoV-2 de Puerto Rico en comparación con el genoma de referencia Wuhan-Hu-1. **Los linajes presentados en este narrativo son según el clasificador Nextclade (dataset 2023-08-09)**.
 
 
 ![](https://raw.githubusercontent.com/nextstrain/ncov-clades-schema/master/clades.svg)
@@ -22,7 +22,7 @@ Relaciones filogenéticas de los grupos monofiléticos de SARS-CoV-2 clasificado
 A inicios de junio de 2023, **XBB** y sus sublinajes recombinantes habían crecido a representar el **95% SARS-CoV-2** a nivel mundial. Debido a la gran transmisibilidad de esta versión del virus, se ha generado una gran diversidad de linajes descendientes de XBB (+500 sublinajes). Esto ha provocado la aparición de nuevas mutaciones en la proteína “Spike” bajo una inmensa presión selectiva (evolución convergente).
 
 
-La evolución convergente se manifiesta como patrones emergentes de mutaciones que surgen de forma independiente dentro de diferentes linajes de XBB. Algunas mutaciones beneficiosas que ocurren repetidamente en varios linajes XBB son **S:486P, S:478R, S:F456L, S:E554K, S:Q613H, S:S704L, S:A701V, S:K356T y S:K403R**. Dado que XBB ha tenido suficiente tiempo para transmitirse y adquirir múltiples mutaciones en la proteina “Spike”, están surgiendo cada vez más sublinajes con emparejamientos de mutaciones beneficiosas en las siguientes formas:
+La evolución convergente se manifiesta como patrones emergentes de mutaciones que surgen de forma independiente dentro de diferentes linajes de XBB. Algunas mutaciones beneficiosas que ocurren repetidamente en varios linajes XBB son **S:52H, S:K356T, S:K403R, S:455F, S:F456L, S:478R, S:486P, S:E554K, S:Q613H, S:A701V y S:S704L**. Dado que XBB ha tenido suficiente tiempo para transmitirse y adquirir múltiples mutaciones en la proteina “Spike”, cada vez más están surgiendo sublinajes con emparejamientos de mutaciones beneficiosas en las siguientes formas:
 
 
 **S:456L + S:478R** = FL.5.1, XBB1.16.6, XBB.1.16.9
@@ -61,7 +61,7 @@ XBB.1.5 fue el primer sublinaje de XBB en adquirir S:F486P y propagarse ampliame
 Sublinajes de interés detectados en Puerto Rico:
 
 
-**XBB.1.5.10** con **S:F456L**, ha crecido alrededor hasta un 25% de frecuencia entre junio y julio 2023.
+**XBB.1.5.10** con **S:F456L**, ha crecido hasta un 25% de frecuencia entre junio y julio 2023.
 
 
 # [XBB.1.16 (Nextstrain clade 23B, S:180V + S:252V + S:478R + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=aa&f_country=Puerto%20Rico&label=clade:23B%20%28XBB.1.16%29&tl=pango_lineage)
@@ -135,6 +135,15 @@ Sublinajes de interés detectados en Puerto Rico:
 
 
 **XBB.2.3.2** con **S:G184V**
+
+
+**XBB.2.3.3** con **S:K182N**
+
+
+**GJ.1.2 (XBB.2.3.3.1.2)** con **ORF1b:V1110I**
+
+
+**GJ.4 (XBB.2.3.3.4)** con **S:M153I**
 
 
 # [EG.5.1 (Nextstrain clade 23F, S:52H + S:456L + S:486P)](https://nextstrain.org/community/arodzh-sudo/ncov-puertorico/Puerto-Rico/six-months/?branchLabel=aa&f_country=Puerto%20Rico&label=clade:23F%20%28EG.5.1%29&tl=pango_lineage)
