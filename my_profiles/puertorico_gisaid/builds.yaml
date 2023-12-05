@@ -1,12 +1,12 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_metadata.tsv"
-    sequences: "data/puerto-rico_sequences.fasta"
-# Global context
-  - name: globe
-    metadata: "data/hcov_global_metadata.tsv"
-    sequences: "data/hcov_global_sequences.fasta"
+    metadata: "data/puerto-rico_metadata_2023-11-20.tsv"
+    sequences: "data/puerto-rico_sequences_2023-11-20.fasta"
+# North America context
+  - name: northamerica
+    metadata: "data/hcov_north-america_metadata_2023-12-03.tsv"
+    sequences: "data/hcov_north-america_sequences_2023-12-03.fasta"
 
 builds:
   Puerto-Rico_all-time:
@@ -18,9 +18,9 @@ builds:
 
 filter:
   puertorico:
-    min_length: 28000
-  globe:
-    min_length: 28000
+    min_length: 27000
+  northamerica:
+    min_length: 27000
 
 # Subsampling parameters
 subsampling:
@@ -29,10 +29,10 @@ subsampling:
       group_by: "year month"
       max_sequences: 4000
       query: --query "(puertorico == 'yes')"
-    globe_context:
+    northamerica_context:
       group_by: "division year month"
       max_sequences: 1000
-      query: --query "(globe == 'yes')"
+      query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
         focus: local
@@ -40,28 +40,28 @@ subsampling:
   six-months:
     local_late:
       group_by: "year month"
-      max_sequences: 3000
+      max_sequences: 2000
       min_date: "--min-date 6M"
       query: --query "(puertorico == 'yes')"
-    globe_late:
+    northamerica_late:
       group_by: "division year month"
       max_sequences: 500
       min_date: "--min-date 6M"
-      query: --query "(globe == 'yes')"
+      query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
         focus: local_late
 
     local_early:
       group_by: "year month"
-      max_sequences: 1000
-      max_date: "--max-date 6M"
-      query: --query "(puertorico == 'yes')"
-    globe_early:
-      group_by: "division year month"
       max_sequences: 500
       max_date: "--max-date 6M"
-      query: --query "(globe == 'yes')"
+      query: --query "(puertorico == 'yes')"
+    northamerica_early:
+      group_by: "division year month"
+      max_sequences: 250
+      max_date: "--max-date 6M"
+      query: --query "(northamerica == 'yes')"
       priorities:
         type: proximity
         focus: local_early
@@ -72,10 +72,10 @@ files:
 
 traits:
   Puerto-Rico_all-time:
-    sampling_bias_correction: 5.0
+    sampling_bias_correction: 2.5
     columns: ["country"]
   Puerto-Rico_six-months:
-    sampling_bias_correction: 5.0
+    sampling_bias_correction: 2.5
     columns: ["country"]
 
 frequencies:

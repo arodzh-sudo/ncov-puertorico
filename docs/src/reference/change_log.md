@@ -5,6 +5,22 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 17 June 2023: Update subsampling strategy for `nextstrain_profiles` to better equilibrate per-capita sampling rates across geographic regions. Primarily this update breaks out China and India as separate subsampling targets because of their large population sizes. It also fine tunes the per-region sampling targets. After this update, URL structure (ie https://nextstrain.org/ncov/gisaid/global/6m) is unchanged. [PR 1074](https://github.com/nextstrain/ncov/pull/1074)
+
+## v13 (16 May 2023)
+
+- 16 May 2023: Update workflow to support [Augur v22](https://github.com/nextstrain/augur/releases/tag/22.0.0) which updates the `augur clades` interface and structure of the output files to allow specifying the clade label & coloring keys. Because we use custom scripts to parse these files this worflow also needed updating. This change results in a simplifying of the nCoV pipeline (PR [1000](https://github.com/nextstrain/ncov/pull/1000)).
+
+- 11 April 2023: Elevate XBB.1.16 as new clade 23B. See [PR 1059](https://github.com/nextstrain/ncov/pull/1059) for the rationale behind this clade update.
+
+- 6 April 2023: Update conda environment dependencies: augur 19.2.0 -> 21.1.0, nextalign/nextclade 2.9.1 -> 2.13.1, iqtree 2.2.0_beta -> 2.2.0.3. [PR 1056](https://github.com/nextstrain/ncov/pull/1056)
+
+- 16 March 2023: Add a build configuration option, `nextclade_dataset`, to allow users to change the Nextclade dataset used for alignment and quality control. For example, setting `nextclade_dataset: sars-cov-2-21L` will use the BA.2 (Nextstrain 21L) dataset that provides immune escape and ACE2 binding scores. [See the workflow configuration guide for more details](https://docs.nextstrain.org/projects/ncov/en/latest/reference/workflow-config-file.html#nextclade-dataset). [PR 1046](https://github.com/nextstrain/ncov/pull/1046)
+
+- 30 January 2023: Include new clade 23A correspoding to Pango lineage XBB.1.5. See [PR 1043](https://github.com/nextstrain/ncov/pull/1043) for the rationale behind this clade update.
+
+- 9 December 2022: Add `immune escape` and `ace2_binding` from metadata  as colorings for `nextstrain-open` and `nextstrain-gisaid` builds. [PR 1036](https://github.com/nextstrain/ncov/pull/1036)
+
 - 24 November 2022: Add "1m" timespan in Nextstrain profile builds. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
 
 - 24 November 2022: calculate_delta_frequency: Allow script to work with fewer pivots available than requested with `--delta-pivots`. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
