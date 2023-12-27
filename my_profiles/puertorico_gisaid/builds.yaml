@@ -1,12 +1,12 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_metadata_2023-12-12.tsv"
-    sequences: "data/puerto-rico_sequences_2023-12-12.fasta"
+    metadata: "data/puerto-rico_metadata_2023-12-26.tsv"
+    sequences: "data/puerto-rico_sequences_2023-12-26.fasta"
 # North America context
   - name: northamerica
-    metadata: "data/hcov_north-america_metadata_2023-12-11.tsv"
-    sequences: "data/hcov_north-america_sequences_2023-12-11.fasta"
+    metadata: "data/hcov_north-america_metadata_2023-12-25.tsv"
+    sequences: "data/hcov_north-america_sequences_2023-12-25.fasta"
 
 builds:
   Puerto-Rico_all-time:
