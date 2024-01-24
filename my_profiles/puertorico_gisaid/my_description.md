@@ -1,4 +1,4 @@
-**Lineages displayed in this build are assigned using the most recent Nextclade^ SARS-CoV-2 dataset (2023-12-03) which include new Nextstrain clades 23G (XBB.1.5.70), 23H (HK.3=EG.5.1.1.3), 23I (BA.2.86) and Pango lineages designated between 2023-10-25 and 2023-12-03.**
+**Lineages displayed in this build are assigned using the most recent Nextclade^ verison (3.0) and SARS-CoV-2 dataset (2024-01-16)**
 
 This analysis focuses on genomic sequences of SARS-CoV-2 from Puerto Rico with additional sequences from North America selected by genetic similarity. Genomic sequences used in this analysis are obtained from [GISAID](https://gisaid.org) and remain subject to GISAID’s [Terms and Conditions](https://www.gisaid.org/registration/terms-of-use/). We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequences and metadata made available through [GISAID](https://gisaid.org). A full listing of all originating and submitting laboratories is available below. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "ACKNOWLEDGMENTS" in the resulting dialog box.
 

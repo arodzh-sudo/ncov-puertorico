@@ -1,12 +1,12 @@
 inputs:
 # Puerto Rico data
   - name: puertorico 
-    metadata: "data/puerto-rico_metadata_2024-01-02.tsv"
-    sequences: "data/puerto-rico_sequences_2024-01-02.fasta"
+    metadata: "data/puerto-rico_metadata_2024-01-22.tsv"
+    sequences: "data/puerto-rico_sequences_2024-01-22.fasta"
 # North America context
   - name: northamerica
-    metadata: "data/hcov_north-america_metadata_2024-01-01.tsv"
-    sequences: "data/hcov_north-america_sequences_2024-01-01.fasta"
+    metadata: "data/hcov_north-america_metadata_2024-01-22.tsv"
+    sequences: "data/hcov_north-america_sequences_2024-01-22.fasta"
 
 builds:
   Puerto-Rico_all-time:
@@ -19,8 +19,10 @@ builds:
 filter:
   puertorico:
     min_length: 27000
+    skip_diagnostics: True
   northamerica:
     min_length: 27000
+    skip_diagnostics: True
 
 # Subsampling parameters
 subsampling:
